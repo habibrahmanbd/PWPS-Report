@@ -1,0 +1,61 @@
+\documentclass[document.tex]{subfiles}
+\begin{document}
+	\begin{appendices}
+		\chapter{Environment Setup}
+		We have used \textbf{Linux (Ubuntu 16.04 LTS)} as our operating system. So, the following process shown only for Linux Environment.
+		\section{Java}
+		For installing Java Compiler, the following command should run from the terminal.
+		\begin{center}
+			\begin{lstlisting}
+sudo apt-get install default-jdk
+sudo apt-get install default-jre
+			\end{lstlisting}
+		\end{center}
+		
+		\section{Python 2 and Pip}
+		We used \textbf{python 2} as our programming language. For installing Python 2 and Pip, the following command should run from the terminal.
+		\begin{center}
+			\begin{lstlisting}
+sudo apt-get install python2
+sudo apt-get install pip2
+			\end{lstlisting}
+		\end{center}
+		
+		\section{Stanford Dependency Parser CoreNLP 3.4 Server}
+		For parser, we have used Stanford Dependency Parser CoreNLP 3.4. This is available at \url{http://nlp.stanford.edu/software/stanford-corenlp-full-2014-06-16.zip}
+		
+		\section{Running Server}
+		Following command should run for installing the server essentials and other packages
+		\begin{lstlisting}
+sudo pip install pexpect unidecode jsonrpclib 
+git clone https://bitbucket.org/torotoki/corenlp-python.git
+cd corenlp-python
+wget http://nlp.stanford.edu/software/stanford-corenlp-full-2014-08-27.zip
+unzip stanford-corenlp-full-2014-08-27.zip
+		\end{lstlisting}
+Then, to launch a server:
+		\begin{lstlisting}
+python corenlp/corenlp.py
+		\end{lstlisting}
+Optionally, you can specify a host or port:
+		\begin{lstlisting}
+python corenlp/corenlp.py -H 0.0.0.0 -p 3456
+		\end{lstlisting}
+That will run a public JSON-RPC server on port 3456.
+And you can specify Stanford CoreNLP directory:
+		\begin{lstlisting}
+python corenlp/corenlp.py -S stanford-corenlp-full-2014-08-27/
+		\end{lstlisting}
+	\section{PWPS Running}
+	To get our code run the following command:
+	\begin{lstlisting}
+git clone https://github.com/habibrahmanbd/PWPS
+	\end{lstlisting}
+	After that, for running our system:
+	\begin{lstlisting}
+cd PWPS/
+./PWPS problemset.json
+	\end{lstlisting}
+	where, \textbf{$problemset.json$} is the dataset.
+	\end{appendices}
+\end{document}

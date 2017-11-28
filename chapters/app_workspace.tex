@@ -1,0 +1,27 @@
+\documentclass[document.tex]{subfiles}
+\begin{document}
+\begin{appendices}
+        
+        \chapter{Linear Similarity}
+        
+        \noindent \textbf{Semantic similarity} is a metric defined over a set of documents or terms, where the idea of distance between them is based on the likeness of their meaning or semantic content as opposed to similarity which can be estimated regarding their syntactical representation (e.g. their string format). These are mathematical tools used to estimate the strength of the semantic relationship between units of language, concepts or instances, through a numerical description obtained according to the comparison of information supporting their meaning or describing their nature. The term semantic similarity is often confused with semantic relatedness. Semantic relatedness includes any relation between two terms, while semantic similarity only includes ``is a" relations. For example, ``car" is similar to ``bus", but is also related to "road" and ``driving".
+        
+        
+        Our method computes the similarity between
+        two verbs $v_1$ and $v_2$ from the similarity between all
+        the senses (from WordNet) of these verbs (Equation \ref{eq:lin}). We compute the similarity between two
+        senses using linear similarity. The
+        similarity between two synsets $sv_1$ and $sv_2$ are penalized according to the order of each sense for the
+        corresponding verb. Intuitively, if a synset appears
+        earlier in the set of synsets of a verb, it is more
+        likely to be considered as the correct meaning.
+        Therefore, later occurrences of a synset should result in reduced similarity scores. The similarity
+        between two verbs $v_1$ and $v_2$ is the maximum similarity between two synsets of the verbs:
+        
+        \begin{equation}
+        	sim(v_1, v_2) = \max_{sv:synset(v)}^{} {lin-sim(sv_1, sv_2)\over \log(p_1+p_2)}
+        	\label{eq:lin}
+        \end{equation}
+        where $sv_1$ , $sv_2$ are two synsets, $p_1$ , $p_2$ are the position of each synset match, and $lin-sim$ is the linear similarity.
+\end{appendices}
+\end{document}

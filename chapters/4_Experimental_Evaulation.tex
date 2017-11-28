@@ -1,0 +1,92 @@
+\documentclass[document.tex]{subfiles}
+\begin{document}
+\chapter{Experimental Evaluation}
+\section{Introduction}
+The experiments are complicated by the fact that \textbf{PWPS} is limited to single equations of percentage word problems, and ALGES
+can only handle single-equations algebra problem with only addition, subtraction, multiplication and division. Our main experimental result is to find the solution of Percentage word problems.
+
+For experiment our system \textbf{PWPS}, there is two parts. One is Experimental Setup and the other is Dataset. In the following section, I have discussed those in details.
+\section{Experimental Setup}
+We use the Stanford De-
+pendency Parser in CoreNLP 3.4\cite{32} to obtain syntactic information used for
+grounding and feature computation. For the ILP
+model, we use CPLEX 12.6.1 (IBM ILOG, 2014)\cite{33}
+to generate the top $M = 100$ equation trees with
+a maximum stack depth of 10, aborting exploration
+upon hitting $10K$ feasible solutions or $30$ seconds.
+We use Python’s SymPy package for solving equations for the unknown. For the local and global models,we use Random forest classifier \cite{34,35}(Discussed in Appendix B).
+\section{Classifier}
+\subsection{Random Forests}
+\textbf{Random forests} or \textbf{random decision forests} are an ensemble learning method for classification, regression and other tasks, that operate by constructing a multitude of decision trees at training time and outputting the class that is the mode of the classes (classification) or mean prediction (regression) of the individual trees. Random decision forests correct for decision trees' habit of over-fitting to their training set.
+\subsubsection{Features of Random Forests}
+We assume that the user knows about the construction of single classification trees. Random Forests grows many classification trees. To classify a new object from an input vector, put the input vector down each of the trees in the forest. Each tree gives a classification, and we say the tree "votes" for that class. The forest chooses the classification having the most votes (over all the trees in the forest).
+\begin{itemize}
+\item It is unexcelled in accuracy among current algorithms.
+\item It runs efficiently on large data bases.
+\item It can handle thousands of input variables without variable deletion.
+\item It gives estimates of what variables are important in the classification.
+\item It generates an internal unbiased estimate of the generalization error as the forest building progresses.
+\item It has an effective method for estimating missing data and maintains accuracy when a large proportion of the data are missing.
+\item It has methods for balancing error in class population unbalanced data sets.
+\item Generated forests can be saved for future use on other data.
+\item Prototypes are computed that give information about the relation between the variables and the classification.
+\item It computes proximities between pairs of cases that can be used in clustering, locating outliers, or (by scaling) give interesting views of the data.
+\item The capabilities of the above can be extended to unlabeled data, leading to unsupervised clustering, data views and outliers detection.
+\item It offers an experimental method for detecting variable interactions.
+\end{itemize}
+\subsubsection{Algorithm of Random Forest}
+Decision trees are a popular method for various machine learning tasks. Tree learning "come closest to meeting the requirements for serving as an off-the-shelf procedure for data mining", because it is invariant under scaling and various other transformations of feature values, is robust to inclusion of irrelevant features, and produces inspectable models. However, they are seldom accurate.
+
+In particular, trees that are grown very deep tend to learn highly irregular patterns: they overfit their training sets, i.e. have low bias, but very high variance. Random forests are a way of averaging multiple deep decision trees, trained on different parts of the same training set, with the goal of reducing the variance.[3]:587–588 This comes at the expense of a small increase in the bias and some loss of interpretability, but generally greatly boosts the performance in the final model.
+
+\subsubsection{Tree bagging}
+The training algorithm for random forests applies the general technique of bootstrap aggregating, or bagging, to tree learners. Given a training set $X = x_1, ..., x_n$ with responses $Y = y_1, ..., y_n$, bagging repeatedly (B times) selects a random sample with replacement of the training set and fits trees to these samples:
+
+For $b = 1, ..., B:$
+\begin{enumerate}
+\item Sample, with replacement, $n$ training examples from $X$, $Y$; call these $X_b$, $Y_b$.
+\item Train a classification or regression tree $f_b$ on $X_b$, $Y_b$.
+\end{enumerate}
+
+After training, predictions for unseen samples $x'$ can be made by averaging the predictions from all the individual regression trees on $x'$:
+\begin{equation}
+{\displaystyle {\hat {f}}={\frac {1}{B}}\sum _{b=1}^{B}f_{b}(x')} 
+\end{equation}
+or by taking the majority vote in the case of classification trees.
+
+This bootstrapping procedure leads to better model performance because it decreases the variance of the model, without increasing the bias. This means that while the predictions of a single tree are highly sensitive to noise in its training set, the average of many trees is not, as long as the trees are not correlated. Simply training many trees on a single training set would give strongly correlated trees (or even the same tree many times, if the training algorithm is deterministic); bootstrap sampling is a way of de-correlating the trees by showing them different training sets.
+
+Additionally, an estimate of the uncertainty of the prediction can be made as the standard deviation of the predictions from all the individual regression trees on x':
+\begin{equation}
+{\displaystyle \sigma ={\sqrt {\frac {\sum _{b=1}^{B}(f_{b}(x')-{\hat {f}})^{2}}{B-1}}}.}
+\end{equation}
+
+The number of samples/trees, B, is a free parameter. Typically, a few hundred to several thousand trees are used, depending on the size and nature of the training set. An optimal number of trees B can be found using cross-validation, or by observing the out-of-bag error: the mean prediction error on each training sample $x_i$, using only the trees that did not have $x_i$ in their bootstrap sample. The training and test error tend to level off after some number of trees have been fit.
+
+\subsubsection{From bagging to random forests}
+The above procedure describes the original bagging algorithm for trees. Random forests differ in only one way from this general scheme: they use a modified tree learning algorithm that selects, at each candidate split in the learning process, a random subset of the features. This process is sometimes called "feature bagging". The reason for doing this is the correlation of the trees in an ordinary bootstrap sample: if one or a few features are very strong predictors for the response variable (target output), these features will be selected in many of the B trees, causing them to become correlated.
+
+Typically, for a classification problem with $p$ features, $\sqrt{p}$ (rounded down) features are used in each split. For regression problems the inventors recommend $p/3$ (rounded down) with a minimum node size of 5 as the default.
+		
+\section{Dataset}
+This work deals with percentage word problems that map to single equations with varying length. Every equation may involve multiple math operations including multiplication, division, subtraction, and addition over non-negative rational numbers and one variable. 
+
+We collected a new dataset from \url{http://math-aids.com}, \url{http://ixl.com}, \url{https://www.khanacademy.org} and \url{http://algebra.com}. Dataset statistics is given below in TABLE \ref{tab:datasetstat}.
+
+\begin{table}[H]
+	\caption{Dataset Statistics}
+	\begin{center}
+		\begin{tabular}{|l | r|}
+			\hline
+			\textbf{Statistics}& \# \\ \hline
+			Number of Problems in Dataset& 185 \\
+			Number of Sentences in Dataset& 592\\
+			Number of Words in Dataset& 5698\\
+			Average Sentences per Problem& 3.2\\
+			Average Words per Problem& 30.8\\
+			\hline
+		\end{tabular}
+	\end{center}
+	\label{tab:datasetstat}
+\end{table}
+\end{document}
