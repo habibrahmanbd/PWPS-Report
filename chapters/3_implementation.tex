@@ -1,4 +1,5 @@
 \documentclass[document.tex]{subfiles}
+
 \begin{document}
 
 \chapter{Methodology}
@@ -13,13 +14,40 @@ In training, we train local relationship model from the generated equations and 
 In testing, set a score for the generated equations from the local and global model and choose the equation with the highest score as the final equation for a problem text.
 
 \section{Flowchart of PWPS}
-	\begin{figure}
-		\begin{center}
-		\includegraphics[height=17cm]{imgs/flowchart.png}
-	\end{center}
-		\caption{Flowchart of PWPS}
-		\label{fig:flowchart}
-	\end{figure}
+\begin{figure}[H]
+	\begin{center}
+\begin{tikzpicture}[node distance=1.2cm]
+% Place nodes
+\node [startstop] (init) {START};
+\node [io,  below of=init] (input) {Problem Text, $p$};
+\node [process, below of = input] (convert) {Convert to Fraction};
+\node [process, below of= convert] (ground) {Ground \& Tokenize $p$ };
+\node [process, below of=ground] (tree) {Generate Tree $T(p)$};
+\node [decision, below of= tree, node distance=3cm] (tt){Test or Train};
+\node [process, left of = Ev, below of=tt,node distance=3cm] (TrLocal){Train Local};
+\node [process, below of=TrLocal, node distance=1.5cm] (TrGlobal){Train Global};
+\node [process, right of=TrLocal, node distance=6cm] (Ev){Evaluate};
+\node [process, right of=TrGlobal, node distance=6cm] (Sol){Solution};
+\node [startstop, below of = tt, node distance = 6cm] (st){STOP};
+
+% Draw edges
+\draw [arrow] (init) -- (input);
+\draw [arrow] (input) -- (convert);
+\draw [arrow] (convert) -- (ground);
+\draw [arrow] (ground) -- (tree);
+\draw [arrow] (tree) -- (tt);
+\draw [arrow] (tt) -| node[anchor=north west]{Train}(TrLocal);
+\draw [arrow] (TrLocal) --(TrGlobal);
+%\draw [arrow] (TrGlobal)-|node[anchor=north west]{Train}(st);
+\draw [arrow] (tt)-|node[anchor=north east]{Test}(Ev);
+\draw [arrow] (Ev)--(Sol);
+\draw [arrow] (Sol)|-(st);
+\draw [arrow] (TrGlobal) |- (st);
+\end{tikzpicture}
+\end{center}
+\caption{Flowchart of PWPS}
+\label{fig:flowchart}
+\end{figure}
 \noindent Figure \ref{fig:flowchart} gives the overview of our proposed system \textbf{Percentage Word Problem Solver (PWPS)}. It firstly take the problem text as input that is a string, then passes through the converting portion. After equation generating, there is two-phase. One is training phase, and another is testing phase. 
 
 All the training steps in the algorithm are discussed in this paper as \textbf{“Learning”}, and testing steps are discussed as \textbf{“Inference”}. 
@@ -28,36 +56,41 @@ Learning contains train local and global model, and inference contains equation 
 
 \section{Algorithm of PWPS}
 Algorithm of Percentage Word Problem Solver (PWPS) consists of two part. One is ``Learning" and the other is ``Inference".
-
 \begin{figure}[H]
-	\noindent \fbox{
-		\begin{minipage}{0.96\textwidth}
-			\textbf{Learning}
-			\begin{enumerate}
-				\item Make a pair of problem text, $p$ and solution, $l$
-				\item Covert to fraction as (1)
-				\item Tokenize, replace and ground $p$ to base Qsets, $S$
-				\item $T_{i}$  is the generated top $M$ candidate trees by $ILP$
-				\item 5. $T_{l_i} \leftarrow$ Select best equation trees based on the solution, $l$
-				\item Extract Local Model features for $Qset <s_1, s_2>$ labeled with $op$
-				\item Extract Global Model features by $T_i$  and solution of $T_i$ labeled with positive or negative
-				\item $L_{local} \leftarrow$  Train Local Model labeled with operator
-				\item $G_{global} \leftarrow$  Train Global Model labeled with Positive or negative
-			\end{enumerate}
-		\end{minipage}
-	}
-	
-	\noindent \fbox{
-		\begin{minipage}{0.96\textwidth}
-			\textbf{Inference}
-			\begin{enumerate}
-				\item Step 1 – 7 from Learning
-				\item Select best equation based on the score from local and global training model like (2)
-				\item Evaluate the equation
-				\item Output the solution
-			\end{enumerate}
-		\end{minipage}
-	}
+	\begin{algorithm}[H]
+		\caption{: \textbf{Learning}}
+		\begin{algorithmic}[1]
+			\renewcommand{\algorithmicrequire}{\textbf{Input:}}
+			\renewcommand{\algorithmicensure}{\textbf{Output:}}
+			\REQUIRE Problem Text, P and Solution, l
+			\ENSURE  Local Model $\mathcal{L}_{local}$, Global Model $ \mathcal{G}{global}$
+			\FOR {$i = 1$ to $n$}
+			\STATE Make a pair of problem text, $p$ and solution, $l$
+			\STATE Covert to fraction as \ref{eq:conv}
+			\STATE Tokenize, replace and ground $p$ to base Qsets, $S$
+			\STATE $T_{i}$  is the generated top $M$ candidate trees by $ILP$
+			\STATE $T_{l_i} \leftarrow$ Select best equation trees based on the solution, $l$
+			\STATE Extract Local Model features for $Qset <s_1, s_2>$ labeled with $op$
+			\STATE Extract Global Model features by $T_i$  and solution of $T_i$ labeled with positive or negative
+			\ENDFOR
+			\STATE $\mathcal{L}_{local} \leftarrow$  Train Local Model labeled with operator
+			\STATE $\mathcal{G}_{global} \leftarrow$  Train Global Model labeled with Positive or negative
+			\RETURN $( \mathcal{L}_{local}, \mathcal{G}{global} )$
+		\end{algorithmic}
+	\end{algorithm}
+	\begin{algorithm}[H]
+		\caption{: \textbf{Inference}}
+		\begin{algorithmic}[1]
+			\renewcommand{\algorithmicrequire}{\textbf{Input:}}
+			\renewcommand{\algorithmicensure}{\textbf{Output:}}
+			\REQUIRE Problem Text, $p$
+			\ENSURE  Solution, $l$
+			\STATE Step 1 -- 7 from Learning
+			\STATE Select best equation based on the score from local and global training model like (2)
+			\STATE Evaluate the equation
+			\RETURN $l$
+		\end{algorithmic}
+	\end{algorithm}
 	\caption{Algorithm of PWPS}
 	\label{fig:algo}
 \end{figure}
@@ -182,9 +215,33 @@ In TABLE \ref{tab:ILP}, the notations for generating candidate equation trees ar
 
 In Fig. \ref{fig:groundedQset}, we showed the subset of the candidate equation trees based on the problem text, p in Fig. \ref{fig:a}, x is the unknown variable where the left one is correct and right one is incorrect parse tree.
 \begin{figure}[H]
-	\begin{center}
-		\includegraphics[height=8cm]{imgs/tree.png}
-	\end{center}
+	\begin{tikzpicture}[level distance=2cm,
+	level 1/.style={sibling distance=2cm},
+	level 2/.style={sibling distance=2cm}]
+	\node {=}
+	child {node {*}
+		child {node {930}}
+		child {node {*}
+			child {node {930}}
+			child {node {0.10}}
+		}
+	}
+	child {node {$x_p$}};
+	\end{tikzpicture}
+	\hspace{6cm}
+	\begin{tikzpicture}[level distance=2cm,
+	level 1/.style={sibling distance=2cm},
+	level 2/.style={sibling distance=2cm}]
+	\node {=}
+	child {node {*}
+		child {node {0.10}}
+		child {node {930}}
+	}
+	child {node {$x_p$}};
+	\end{tikzpicture}
+%	\begin{center}
+%		\includegraphics[height=8cm]{imgs/tree.png}
+%	\end{center}
 	\caption{Candidate equation tree generated with ILP}
 	\label{fig:tree}
 \end{figure}

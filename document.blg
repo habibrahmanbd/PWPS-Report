@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: document.aux
 The style file: IEEEtran.bst
-Illegal, another \bibstyle command---line 209 of file document.aux
+Illegal, another \bibstyle command---line 215 of file document.aux
  : \bibstyle
  :          {unsrt}
 I'm skipping whatever remains of this command
@@ -18,45 +18,45 @@ Database file #1: bibliography.bib
 Warning--empty journal in 33
 
 Done.
-You've used 36 entries,
+You've used 35 entries,
             4087 wiz_defined-function locations,
-            973 strings with 11908 characters,
-and the built_in function-call counts, 21911 in all, are:
-= -- 1741
-> -- 556
+            969 strings with 11838 characters,
+and the built_in function-call counts, 21587 in all, are:
+= -- 1718
+> -- 552
 < -- 139
-+ -- 306
-- -- 102
-* -- 969
-:= -- 3422
-add.period$ -- 72
-call.type$ -- 36
-change.case$ -- 36
++ -- 304
+- -- 101
+* -- 961
+:= -- 3366
+add.period$ -- 70
+call.type$ -- 35
+change.case$ -- 35
 chr.to.int$ -- 360
-cite$ -- 37
-duplicate$ -- 1683
-empty$ -- 1777
-format.name$ -- 130
-if$ -- 5084
+cite$ -- 36
+duplicate$ -- 1653
+empty$ -- 1741
+format.name$ -- 129
+if$ -- 5011
 int.to.chr$ -- 0
-int.to.str$ -- 36
-missing$ -- 267
-newline$ -- 131
-num.names$ -- 36
-pop$ -- 702
+int.to.str$ -- 35
+missing$ -- 260
+newline$ -- 128
+num.names$ -- 35
+pop$ -- 683
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 1675
+skip$ -- 1647
 stack$ -- 0
-substring$ -- 882
-swap$ -- 1212
+substring$ -- 881
+swap$ -- 1197
 text.length$ -- 19
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 36
+type$ -- 35
 warning$ -- 1
-while$ -- 91
-width$ -- 38
-write$ -- 327
+while$ -- 90
+width$ -- 37
+write$ -- 320
 (There was 1 error message)

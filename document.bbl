@@ -21,9 +21,6 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{wikiparsing}
-Wikipedia, ``Parsing,'' \url{https://en.wikipedia.org/wiki/Parsing}.
-
 \bibitem{3}
 R.~Koncel-Kedziorski, A.~S. Hannaneh~Hajishirzi, O.~Etzioni, and S.~D. Ang,
   ``Parsing algebraic word problems into equations,'' \emph{Empirical Methods

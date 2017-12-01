@@ -1,6 +1,6 @@
 \contentsline {chapter}{Acknowledgement}{i}{Doc-Start}
-\contentsline {chapter}{Certificate}{ii}{Doc-Start}
-\contentsline {chapter}{Abstract}{iii}{Doc-Start}
+\contentsline {chapter}{\selectfont Certificate}{ii}{Doc-Start}
+\contentsline {chapter}{ \selectfont Abstract}{iii}{Doc-Start}
 \contentsline {chapter}{List of Figures}{vii}{chapter*.2}
 \contentsline {chapter}{List of Tables}{viii}{chapter*.3}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
@@ -14,46 +14,46 @@
 \contentsline {subsection}{\numberline {1.3.5}Hybrid of Verb Categorization and Template Matching Technique}{4}{subsection.1.3.5}
 \contentsline {section}{\numberline {1.4}Objectives}{5}{section.1.4}
 \contentsline {section}{\numberline {1.5}Contributions}{5}{section.1.5}
-\contentsline {section}{\numberline {1.6}Organization of Thesis}{6}{section.1.6}
+\contentsline {section}{\numberline {1.6}Organization of Thesis}{5}{section.1.6}
 \contentsline {chapter}{\numberline {2}Methodology}{7}{chapter.2}
 \contentsline {section}{\numberline {2.1}Introduction}{7}{section.2.1}
-\contentsline {section}{\numberline {2.2}Flowchart of PWPS}{7}{section.2.2}
+\contentsline {section}{\numberline {2.2}Flowchart of PWPS}{8}{section.2.2}
 \contentsline {section}{\numberline {2.3}Algorithm of PWPS}{9}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Convert to Fraction}{10}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Tokenize, Replacement and Grounding}{11}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Generate Equations}{12}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Learning}{14}{subsection.2.3.4}
-\contentsline {subsection}{\numberline {2.3.5}Local Qset Relationship Model}{14}{subsection.2.3.5}
-\contentsline {subsection}{\numberline {2.3.6}Features in Local Qset Relationship Model}{14}{subsection.2.3.6}
-\contentsline {subsection}{\numberline {2.3.7}Linear Similarity}{15}{subsection.2.3.7}
-\contentsline {subsection}{\numberline {2.3.8}Global Equation Model}{16}{subsection.2.3.8}
-\contentsline {subsection}{\numberline {2.3.9}Features in Global Equation Model}{16}{subsection.2.3.9}
-\contentsline {subsection}{\numberline {2.3.10}Inference}{17}{subsection.2.3.10}
-\contentsline {section}{\numberline {2.4}Conclusion}{18}{section.2.4}
-\contentsline {chapter}{\numberline {3}Experimental Evaluation}{19}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction}{19}{section.3.1}
-\contentsline {section}{\numberline {3.2}Experimental Setup}{19}{section.3.2}
-\contentsline {section}{\numberline {3.3}Classifier}{20}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Random Forests}{20}{subsection.3.3.1}
-\contentsline {subsubsection}{Features of Random Forests}{20}{section*.15}
-\contentsline {subsubsection}{Algorithm of Random Forest}{21}{section*.16}
-\contentsline {subsubsection}{Tree bagging}{21}{section*.17}
-\contentsline {subsubsection}{From bagging to random forests}{22}{section*.18}
-\contentsline {section}{\numberline {3.4}Dataset}{23}{section.3.4}
-\contentsline {chapter}{\numberline {4}Result and Performance Analysis}{24}{chapter.4}
-\contentsline {section}{\numberline {4.1}Result}{24}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Comparison}{25}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Ablation Study}{25}{subsection.4.1.2}
-\contentsline {subsubsection}{No Local Model}{25}{section*.22}
-\contentsline {subsubsection}{No Global Model}{26}{section*.23}
-\contentsline {section}{\numberline {4.2}Error Analysis}{26}{section.4.2}
-\contentsline {chapter}{\numberline {5}Conclusion and Future Works}{28}{chapter.5}
-\contentsline {section}{\numberline {5.1}Conclusion}{28}{section.5.1}
-\contentsline {section}{\numberline {5.2}Future Works}{28}{section.5.2}
-\contentsline {chapter}{\numberline {A}Environment Setup}{29}{Appendix.1.A}
-\contentsline {section}{\numberline {A.1}Java}{29}{section.1.A.1}
-\contentsline {section}{\numberline {A.2}Python 2 and Pip}{29}{section.1.A.2}
-\contentsline {section}{\numberline {A.3}Stanford Dependency Parser CoreNLP 3.4 Server}{29}{section.1.A.3}
-\contentsline {section}{\numberline {A.4}Running Server}{30}{section.1.A.4}
-\contentsline {section}{\numberline {A.5}PWPS Running}{30}{section.1.A.5}
-\contentsline {chapter}{References}{31}{chapter*.26}
+\contentsline {subsection}{\numberline {2.3.2}Tokenize, Replacement and Grounding}{10}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Generate Equations}{11}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Learning}{13}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}Local Qset Relationship Model}{13}{subsection.2.3.5}
+\contentsline {subsection}{\numberline {2.3.6}Features in Local Qset Relationship Model}{13}{subsection.2.3.6}
+\contentsline {subsection}{\numberline {2.3.7}Linear Similarity}{14}{subsection.2.3.7}
+\contentsline {subsection}{\numberline {2.3.8}Global Equation Model}{14}{subsection.2.3.8}
+\contentsline {subsection}{\numberline {2.3.9}Features in Global Equation Model}{14}{subsection.2.3.9}
+\contentsline {subsection}{\numberline {2.3.10}Inference}{16}{subsection.2.3.10}
+\contentsline {section}{\numberline {2.4}Conclusion}{16}{section.2.4}
+\contentsline {chapter}{\numberline {3}Experimental Evaluation}{17}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{17}{section.3.1}
+\contentsline {section}{\numberline {3.2}Experimental Setup}{17}{section.3.2}
+\contentsline {section}{\numberline {3.3}Classifier}{18}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Random Forests}{18}{subsection.3.3.1}
+\contentsline {subsubsection}{Features of Random Forests}{18}{section*.15}
+\contentsline {subsubsection}{Algorithm of Random Forest}{19}{section*.16}
+\contentsline {subsubsection}{Tree bagging}{19}{section*.17}
+\contentsline {subsubsection}{From bagging to random forests}{20}{section*.18}
+\contentsline {section}{\numberline {3.4}Dataset}{21}{section.3.4}
+\contentsline {chapter}{\numberline {4}Result and Performance Analysis}{22}{chapter.4}
+\contentsline {section}{\numberline {4.1}Result}{22}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Comparison}{23}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Ablation Study}{23}{subsection.4.1.2}
+\contentsline {subsubsection}{No Local Model}{23}{section*.22}
+\contentsline {subsubsection}{No Global Model}{24}{section*.23}
+\contentsline {section}{\numberline {4.2}Error Analysis}{24}{section.4.2}
+\contentsline {chapter}{\numberline {5}Conclusion and Future Works}{26}{chapter.5}
+\contentsline {section}{\numberline {5.1}Conclusion}{26}{section.5.1}
+\contentsline {section}{\numberline {5.2}Future Works}{26}{section.5.2}
+\contentsline {chapter}{\numberline {A}Environment Setup}{27}{Appendix.1.A}
+\contentsline {section}{\numberline {A.1}Java}{27}{section.1.A.1}
+\contentsline {section}{\numberline {A.2}Python 2 and Pip}{27}{section.1.A.2}
+\contentsline {section}{\numberline {A.3}Stanford Dependency Parser CoreNLP 3.4 Server}{27}{section.1.A.3}
+\contentsline {section}{\numberline {A.4}Running Server}{28}{section.1.A.4}
+\contentsline {section}{\numberline {A.5}PWPS Running}{28}{section.1.A.5}
+\contentsline {chapter}{References}{29}{chapter*.26}

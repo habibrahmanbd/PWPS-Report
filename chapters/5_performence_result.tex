@@ -12,10 +12,44 @@
 Where $T_c$ is the number of problems for which our system
 \textbf{PWPS} gives correct solution and $T_s$ is the number of total problems. Fig. \ref{fig:accvsalpha} shows the accuracy with respect to several values for $\alpha$ and $\beta$ in Eq.\ref{eq:main}. In horizontal axes the values of $\alpha$ and
 in vertical axes it shows the accuracy (\%).
-
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[height=7cm]{imgs/Acc.png}
+	\begin{tikzpicture}
+	\begin{axis}[
+	%title={},
+	xlabel={Weight to Local Model, $\alpha$ },
+	ylabel={Accuracy},
+	xmin=0, xmax=1,
+	ymin=0.65, ymax=0.70,
+	xtick={0.0, 0.1,0.2,0.3,0.4,0.5,0.6,0.7, 0.8, 0.9, 1.0},
+	ytick={0.65, 0.66, 0.67, 0.68,0.69, 0.70},
+	legend pos=north west,
+	ymajorgrids=true,
+	grid style=dashed,
+	]
+	
+	\addplot[
+	blue,
+	mark=square,
+	smooth,
+	]
+	coordinates {
+		(0.0, 0.6828193832599119)
+		(0.1, 0.6872246696035242)
+		(0.2, 0.6919299559471366)
+		(0.3, 0.6784140969162996)
+		(0.4, 0.6784140969162996)
+		(0.5, 0.6651982378854625)
+		(0.6, 0.6872246696035242)
+		(0.7, 0.6784140969162996)
+		(0.8, 0.6651982378854625)
+		(0.9, 0.6872246696035242)
+		(1.0, 0.6651982378854625)
+	};
+	%		\legend{CuSO$_4\cdot$5H$_2$O}
+	
+	\end{axis}
+	\end{tikzpicture}
 	\end{center}
 	\caption{Accuracy Versus $\alpha$}
 	\label{fig:accvsalpha}
