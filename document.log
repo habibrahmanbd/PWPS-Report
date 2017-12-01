@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.25)  30 NOV 2017 23:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.25)  2 DEC 2017 01:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1071,7 +1071,55 @@ File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.co
 de.tex
 File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
-)))
+))) (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2015/08/19 v1.8n multicolumn formatting (FMi)
+\c@tracingmulticols=\count160
+\mult@box=\box45
+\multicol@leftmargin=\dimen198
+\c@unbalance=\count161
+\c@collectmore=\count162
+\doublecol@number=\count163
+\multicoltolerance=\count164
+\multicolpretolerance=\count165
+\full@width=\dimen199
+\page@free=\dimen256
+\premulticols=\dimen257
+\postmulticols=\dimen258
+\multicolsep=\skip51
+\multicolbaselineskip=\skip52
+\partial@page=\box46
+\last@line=\box47
+\maxbalancingoverflow=\dimen259
+\mult@rightbox=\box48
+\mult@grightbox=\box49
+\mult@gfirstbox=\box50
+\mult@firstbox=\box51
+\@tempa=\box52
+\@tempa=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\c@columnbadness=\count166
+\c@finalcolumnbadness=\count167
+\last@try=\dimen260
+\multicolovershoot=\dimen261
+\multicolundershoot=\dimen262
+\mult@nat@firstbox=\box69
+\colbreak@box=\box70
+\mc@col@check@num=\count168
+)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryshapes.geometric.code.tex
 File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
@@ -1089,7 +1137,7 @@ File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
 tex
 File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
-\arrowsize=\dimen198
+\arrowsize=\dimen263
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryshapes.code.tex
@@ -1132,26 +1180,26 @@ File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
 s.multipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.1a (rcs-revision 1.2)
 
-\pgfnodepartlowerbox=\box45
-\pgfnodeparttwobox=\box46
-\pgfnodepartthreebox=\box47
-\pgfnodepartfourbox=\box48
-\pgfnodeparttwentybox=\box49
-\pgfnodepartnineteenbox=\box50
-\pgfnodeparteighteenbox=\box51
-\pgfnodepartseventeenbox=\box52
-\pgfnodepartsixteenbox=\box53
-\pgfnodepartfifteenbox=\box54
-\pgfnodepartfourteenbox=\box55
-\pgfnodepartthirteenbox=\box56
-\pgfnodeparttwelvebox=\box57
-\pgfnodepartelevenbox=\box58
-\pgfnodeparttenbox=\box59
-\pgfnodepartninebox=\box60
-\pgfnodeparteightbox=\box61
-\pgfnodepartsevenbox=\box62
-\pgfnodepartsixbox=\box63
-\pgfnodepartfivebox=\box64
+\pgfnodepartlowerbox=\box71
+\pgfnodeparttwobox=\box72
+\pgfnodepartthreebox=\box73
+\pgfnodepartfourbox=\box74
+\pgfnodeparttwentybox=\box75
+\pgfnodepartnineteenbox=\box76
+\pgfnodeparteighteenbox=\box77
+\pgfnodepartseventeenbox=\box78
+\pgfnodepartsixteenbox=\box79
+\pgfnodepartfifteenbox=\box80
+\pgfnodepartfourteenbox=\box81
+\pgfnodepartthirteenbox=\box82
+\pgfnodeparttwelvebox=\box83
+\pgfnodepartelevenbox=\box84
+\pgfnodeparttenbox=\box85
+\pgfnodepartninebox=\box86
+\pgfnodeparteightbox=\box87
+\pgfnodepartsevenbox=\box88
+\pgfnodepartsixbox=\box89
+\pgfnodepartfivebox=\box90
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytrees.code.tex
@@ -1166,17 +1214,17 @@ Package tocbibind Note: Using chapter style headings, unless overridden.
 
 ) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count160
-\Gm@cntv=\count161
-\c@Gm@tempcnt=\count162
-\Gm@bindingoffset=\dimen199
-\Gm@wd@mp=\dimen256
-\Gm@odd@mp=\dimen257
-\Gm@even@mp=\dimen258
-\Gm@layoutwidth=\dimen259
-\Gm@layoutheight=\dimen260
-\Gm@layouthoffset=\dimen261
-\Gm@layoutvoffset=\dimen262
+\Gm@cnth=\count169
+\Gm@cntv=\count170
+\c@Gm@tempcnt=\count171
+\Gm@bindingoffset=\dimen264
+\Gm@wd@mp=\dimen265
+\Gm@odd@mp=\dimen266
+\Gm@even@mp=\dimen267
+\Gm@layoutwidth=\dimen268
+\Gm@layoutheight=\dimen269
+\Gm@layouthoffset=\dimen270
+\Gm@layoutvoffset=\dimen271
 \Gm@dimlist=\toks47
 )
 (./document.aux
@@ -1186,36 +1234,36 @@ LaTeX Warning: Label `fig:flowchart' multiply defined.
 )
 \openout1 = `document.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 80.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 82.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count163
-\scratchdimen=\dimen263
-\scratchbox=\box65
-\nofMPsegments=\count164
-\nofMParguments=\count165
+\scratchcounter=\count172
+\scratchdimen=\dimen272
+\scratchbox=\box91
+\nofMPsegments=\count173
+\nofMParguments=\count174
 \everyMPshowfont=\toks48
-\MPscratchCnt=\count166
-\MPscratchDim=\dimen264
-\MPnumerator=\count167
-\makeMPintoPDFobject=\count168
+\MPscratchCnt=\count175
+\MPscratchDim=\dimen273
+\MPnumerator=\count176
+\makeMPintoPDFobject=\count177
 \everyMPtoPDFconversion=\toks49
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -1232,8 +1280,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box66
-Package hyperref Info: Link coloring OFF on input line 80.
+\AtBeginShipoutBox=\box92
+Package hyperref Info: Link coloring OFF on input line 82.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1241,17 +1289,17 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count169
+\c@section@level=\count178
 )
-LaTeX Info: Redefining \ref on input line 80.
-LaTeX Info: Redefining \pageref on input line 80.
-LaTeX Info: Redefining \nameref on input line 80.
+LaTeX Info: Redefining \ref on input line 82.
+LaTeX Info: Redefining \pageref on input line 82.
+LaTeX Info: Redefining \nameref on input line 82.
 
 (./document.out) (./document.out)
 \@outlinefile=\write4
 \openout4 = `document.out'.
 
-\c@lstlisting=\count170
+\c@lstlisting=\count179
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  ABD: EveryShipout initializing macros
@@ -1259,7 +1307,7 @@ Package caption Info: End \AtBeginDocument code.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.13} into 
 your preamble.
- on input line 80.
+ on input line 82.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1295,7 +1343,7 @@ your preamble.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(./chapters/i_title.tex <imgs/ruetlogo.pdf, id=218, 481.8pt x 481.8pt>
+(./chapters/i_title.tex <imgs/ruetlogo.pdf, id=230, 481.8pt x 481.8pt>
 File: imgs/ruetlogo.pdf Graphic file (type pdf)
 
 <use imgs/ruetlogo.pdf>
@@ -1329,7 +1377,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <16> not available
 
 ])
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 90.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 92.
  (./document.toc [4
 
 
@@ -1354,35 +1402,72 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 Chapter 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 13.
 [1
 
 
-]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 28.
- [2]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 71.
+] [2] [3]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 73.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 71.
- [3] [4]
-[5]) (./chapters/3_implementation.tex [6]
-Chapter 2.
-[7
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 73.
+ [4]
+<imgs/news.png, id=428, 166.6225pt x 115.43124pt>
+File: imgs/news.png Graphic file (type png)
+ <use imgs/news.png>
+Package pdftex.def Info: imgs/news.png used on input line 122.
+(pdftex.def)             Requested size: 91.64265pt x 63.48737pt.
 
-] [8]
+Overfull \hbox (21.07982pt too wide) in paragraph at lines 122--124
+[][]
+ []
+
+<imgs/stock.png, id=429, 496.85625pt x 417.56pt>
+File: imgs/stock.png Graphic file (type png)
+ <use imgs/stock.png>
+Package pdftex.def Info: imgs/stock.png used on input line 125.
+(pdftex.def)             Requested size: 74.5252pt x 62.63129pt.
+
+Overfull \hbox (3.96237pt too wide) in paragraph at lines 125--127
+[][]
+ []
+
+<imgs/product_prices.png, id=431, 803.0pt x 803.0pt>
+File: imgs/product_prices.png Graphic file (type png)
+
+<use imgs/product_prices.png>
+Package pdftex.def Info: imgs/product_prices.png used on input line 128.
+(pdftex.def)             Requested size: 73.872pt x 73.872pt.
+
+Overfull \hbox (3.30916pt too wide) in paragraph at lines 128--130
+[][]
+ []
+
+<imgs/chatbot.png, id=432, 200.75pt x 200.75pt>
+File: imgs/chatbot.png Graphic file (type png)
+ <use imgs/chatbot.png>
+Package pdftex.def Info: imgs/chatbot.png used on input line 131.
+(pdftex.def)             Requested size: 70.26353pt x 70.26353pt.
+ [5]
+[6 <./imgs/news.png> <./imgs/stock.png> <./imgs/product_prices.png> <./imgs/cha
+tbot.png>]) (./chapters/3_implementation.tex [7]
+Chapter 2.
+[8
+
+] [9]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 61.
- [9pdfTeX warning (ext4): destination with the same identifier (name{figure.cap
-tion.7}) has been already used, duplicate ignored
+ [10pdfTeX warning (ext4): destination with the same identifier (name{figure.ca
+ption.8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.99 \subsection
                 {Convert to Fraction}pdfTeX warning (ext4): destination with th
-e same identifier (name{figure.caption.7}) has been already used, duplicate ign
+e same identifier (name{figure.caption.8}) has been already used, duplicate ign
 ored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1400,7 +1485,7 @@ Overfull \hbox (0.9968pt too wide) in paragraph at lines 140--141
 -er-ties based on Ta-ble []2.1[]. Grounded
  []
 
-[10]
+[11]
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 187.
 
@@ -1414,42 +1499,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 211--211
 
  []
 
-[11]
+[12]
 Overfull \hbox (6.50552pt too wide) in paragraph at lines 250--251
 \OT1/ptm/m/n/12 prob-lem text, \OT1/ptm/m/it/12 p \OT1/ptm/m/n/12 like ALGES. O
 ur dataset con-tains prob-lem text-solution pairs $\OT1/cmr/m/n/12 (\OML/cmm/m/
 it/12 w[]; l[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; where; i \OT1/cmr/m/n/12 =
  []
 
-[12] [13] [14] [15]) (./chapters/4_Experimental_Evaulation.tex [16]
+[13] [14] [15] [16] [17] [18] [19]) (./chapters/4_Experimental_Evaulation.tex
+[20]
 Chapter 3.
-[17
-
-] [18] [19] [20]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 74.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 78.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-Overfull \hbox (18.37129pt too wide) in paragraph at lines 74--75
+) [21
+
+]
+Overfull \hbox (18.37129pt too wide) in paragraph at lines 91--92
 []\OT1/ptm/m/n/12 We col-lected a new dataset from []$\OT1/pcr/m/n/12 http : / 
 / math-[]aids . com$[]\OT1/ptm/m/n/12 , []$\OT1/pcr/m/n/12 http : / / ixl . com
 $[]\OT1/ptm/m/n/12 , []$\OT1/pcr/m/n/12 https :
  []
 
-) (./chapters/5_performence_result.tex [21]
+) (./chapters/5_performence_result.tex [22] [23]
 Chapter 4.
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 58.
 
-[22
+[24
 
 ]
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 61.
 
-[23] [24]) (./chapters/6_future_works.tex [25]
+[25] [26]) (./chapters/6_future_works.tex [27]
 Chapter 5.
-) (./chapters/app_code_snippets.tex [26
+) (./chapters/app_code_snippets.tex [28
 
 ]
 Appendix A.
@@ -1459,29 +1544,29 @@ Overfull \hbox (10.33191pt too wide) in paragraph at lines 25--26
 -[]2014-[]06-[]16 . zip$[] 
  []
 
-[27
+[29
 
-]) (./document.bbl [28] [29
+]) (./document.bbl [30] [31
 
-] [30]) [31]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 113.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
+] [32] [33]) [34]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 115.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 115.
  (./document.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 113.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 113.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 115.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 115.
 Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: 292B9C43F24036AB43B80D3B3E5F1291;3438.
+(rerunfilecheck)             Checksum: 26E4DBF162AA7F0D13525C39807BF116;3642.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 113.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 115.
  ) 
 Here is how much of TeX's memory you used:
- 32769 strings out of 493029
- 761859 string characters out of 6136234
- 960538 words of memory out of 5000000
- 35506 multiletter control sequences out of 15000+600000
+ 32921 strings out of 493029
+ 764175 string characters out of 6136234
+ 966327 words of memory out of 5000000
+ 35635 multiletter control sequences out of 15000+600000
  28145 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,15n,101p,1084b,2007s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1499,10 +1584,10 @@ hare/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on document.pdf (40 pages, 428040 bytes).
+Output written on document.pdf (43 pages, 522892 bytes).
 PDF statistics:
- 771 PDF objects out of 1000 (max. 8388607)
- 701 compressed objects within 8 object streams
- 210 named destinations out of 1000 (max. 500000)
- 442 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 830 PDF objects out of 1000 (max. 8388607)
+ 748 compressed objects within 8 object streams
+ 225 named destinations out of 1000 (max. 500000)
+ 486 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -5,49 +5,52 @@
 \BOOKMARK [0][-]{chapter*.3}{List of Tables}{}% 5
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 6
 \BOOKMARK [1][-]{section.1.1}{Introduction}{chapter.1}% 7
-\BOOKMARK [1][-]{section.1.2}{Percentage Word Problem}{chapter.1}% 8
-\BOOKMARK [1][-]{section.1.3}{Background}{chapter.1}% 9
-\BOOKMARK [2][-]{subsection.1.3.1}{Parsing}{section.1.3}% 10
-\BOOKMARK [2][-]{subsection.1.3.2}{Semantic Parsing}{section.1.3}% 11
-\BOOKMARK [2][-]{subsection.1.3.3}{Verb Categorization Technique}{section.1.3}% 12
-\BOOKMARK [2][-]{subsection.1.3.4}{Template Matching Technique}{section.1.3}% 13
-\BOOKMARK [2][-]{subsection.1.3.5}{Hybrid of Verb Categorization and Template Matching Technique}{section.1.3}% 14
-\BOOKMARK [1][-]{section.1.4}{Objectives}{chapter.1}% 15
-\BOOKMARK [1][-]{section.1.5}{Contributions}{chapter.1}% 16
-\BOOKMARK [1][-]{section.1.6}{Organization of Thesis}{chapter.1}% 17
-\BOOKMARK [0][-]{chapter.2}{Methodology}{}% 18
-\BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 19
-\BOOKMARK [1][-]{section.2.2}{Flowchart of PWPS}{chapter.2}% 20
-\BOOKMARK [1][-]{section.2.3}{Algorithm of PWPS}{chapter.2}% 21
-\BOOKMARK [2][-]{subsection.2.3.1}{Convert to Fraction}{section.2.3}% 22
-\BOOKMARK [2][-]{subsection.2.3.2}{Tokenize, Replacement and Grounding}{section.2.3}% 23
-\BOOKMARK [2][-]{subsection.2.3.3}{Generate Equations}{section.2.3}% 24
-\BOOKMARK [2][-]{subsection.2.3.4}{Learning}{section.2.3}% 25
-\BOOKMARK [2][-]{subsection.2.3.5}{Local Qset Relationship Model}{section.2.3}% 26
-\BOOKMARK [2][-]{subsection.2.3.6}{Features in Local Qset Relationship Model}{section.2.3}% 27
-\BOOKMARK [2][-]{subsection.2.3.7}{Linear Similarity}{section.2.3}% 28
-\BOOKMARK [2][-]{subsection.2.3.8}{Global Equation Model}{section.2.3}% 29
-\BOOKMARK [2][-]{subsection.2.3.9}{Features in Global Equation Model}{section.2.3}% 30
-\BOOKMARK [2][-]{subsection.2.3.10}{Inference}{section.2.3}% 31
-\BOOKMARK [1][-]{section.2.4}{Conclusion}{chapter.2}% 32
-\BOOKMARK [0][-]{chapter.3}{Experimental Evaluation}{}% 33
-\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 34
-\BOOKMARK [1][-]{section.3.2}{Experimental Setup}{chapter.3}% 35
-\BOOKMARK [1][-]{section.3.3}{Classifier}{chapter.3}% 36
-\BOOKMARK [2][-]{subsection.3.3.1}{Random Forests}{section.3.3}% 37
-\BOOKMARK [1][-]{section.3.4}{Dataset}{chapter.3}% 38
-\BOOKMARK [0][-]{chapter.4}{Result and Performance Analysis}{}% 39
-\BOOKMARK [1][-]{section.4.1}{Result}{chapter.4}% 40
-\BOOKMARK [2][-]{subsection.4.1.1}{Comparison}{section.4.1}% 41
-\BOOKMARK [2][-]{subsection.4.1.2}{Ablation Study}{section.4.1}% 42
-\BOOKMARK [1][-]{section.4.2}{Error Analysis}{chapter.4}% 43
-\BOOKMARK [0][-]{chapter.5}{Conclusion and Future Works}{}% 44
-\BOOKMARK [1][-]{section.5.1}{Conclusion}{chapter.5}% 45
-\BOOKMARK [1][-]{section.5.2}{Future Works}{chapter.5}% 46
-\BOOKMARK [0][-]{Appendix.1.A}{Environment Setup}{}% 47
-\BOOKMARK [1][-]{section.1.A.1}{Java}{Appendix.1.A}% 48
-\BOOKMARK [1][-]{section.1.A.2}{Python 2 and Pip}{Appendix.1.A}% 49
-\BOOKMARK [1][-]{section.1.A.3}{Stanford Dependency Parser CoreNLP 3.4 Server}{Appendix.1.A}% 50
-\BOOKMARK [1][-]{section.1.A.4}{Running Server}{Appendix.1.A}% 51
-\BOOKMARK [1][-]{section.1.A.5}{PWPS Running}{Appendix.1.A}% 52
-\BOOKMARK [0][-]{chapter*.26}{References}{}% 53
+\BOOKMARK [1][-]{section.1.2}{Math Word Problem}{chapter.1}% 8
+\BOOKMARK [2][-]{subsection.1.2.1}{Percentage Word Problem}{section.1.2}% 9
+\BOOKMARK [1][-]{section.1.3}{Parsing}{chapter.1}% 10
+\BOOKMARK [1][-]{section.1.4}{Background}{chapter.1}% 11
+\BOOKMARK [2][-]{subsection.1.4.1}{Semantic Parsing}{section.1.4}% 12
+\BOOKMARK [2][-]{subsection.1.4.2}{Verb Categorization Technique}{section.1.4}% 13
+\BOOKMARK [2][-]{subsection.1.4.3}{Template Matching Technique}{section.1.4}% 14
+\BOOKMARK [2][-]{subsection.1.4.4}{Hybrid of Verb Categorization and Template Matching Technique}{section.1.4}% 15
+\BOOKMARK [1][-]{section.1.5}{Motivation}{chapter.1}% 16
+\BOOKMARK [1][-]{section.1.6}{Objectives}{chapter.1}% 17
+\BOOKMARK [1][-]{section.1.7}{Contributions}{chapter.1}% 18
+\BOOKMARK [1][-]{section.1.8}{Organization of Thesis}{chapter.1}% 19
+\BOOKMARK [0][-]{chapter.2}{Methodology}{}% 20
+\BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 21
+\BOOKMARK [1][-]{section.2.2}{Flowchart of PWPS}{chapter.2}% 22
+\BOOKMARK [1][-]{section.2.3}{Algorithm of PWPS}{chapter.2}% 23
+\BOOKMARK [2][-]{subsection.2.3.1}{Convert to Fraction}{section.2.3}% 24
+\BOOKMARK [2][-]{subsection.2.3.2}{Tokenize, Replacement and Grounding}{section.2.3}% 25
+\BOOKMARK [2][-]{subsection.2.3.3}{Generate Equations}{section.2.3}% 26
+\BOOKMARK [2][-]{subsection.2.3.4}{Learning}{section.2.3}% 27
+\BOOKMARK [2][-]{subsection.2.3.5}{Local Qset Relationship Model}{section.2.3}% 28
+\BOOKMARK [2][-]{subsection.2.3.6}{Features in Local Qset Relationship Model}{section.2.3}% 29
+\BOOKMARK [2][-]{subsection.2.3.7}{Linear Similarity}{section.2.3}% 30
+\BOOKMARK [2][-]{subsection.2.3.8}{Global Equation Model}{section.2.3}% 31
+\BOOKMARK [2][-]{subsection.2.3.9}{Features in Global Equation Model}{section.2.3}% 32
+\BOOKMARK [2][-]{subsection.2.3.10}{Inference}{section.2.3}% 33
+\BOOKMARK [1][-]{section.2.4}{Classifier}{chapter.2}% 34
+\BOOKMARK [2][-]{subsection.2.4.1}{Random Forests}{section.2.4}% 35
+\BOOKMARK [1][-]{section.2.5}{Conclusion}{chapter.2}% 36
+\BOOKMARK [0][-]{chapter.3}{Experimental Evaluation}{}% 37
+\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 38
+\BOOKMARK [1][-]{section.3.2}{Experimental Setup}{chapter.3}% 39
+\BOOKMARK [1][-]{section.3.3}{Dataset Description}{chapter.3}% 40
+\BOOKMARK [1][-]{section.3.4}{Implementation Procedure}{chapter.3}% 41
+\BOOKMARK [0][-]{chapter.4}{Result and Performance Analysis}{}% 42
+\BOOKMARK [1][-]{section.4.1}{Result}{chapter.4}% 43
+\BOOKMARK [2][-]{subsection.4.1.1}{Comparison}{section.4.1}% 44
+\BOOKMARK [2][-]{subsection.4.1.2}{Ablation Study}{section.4.1}% 45
+\BOOKMARK [1][-]{section.4.2}{Error Analysis}{chapter.4}% 46
+\BOOKMARK [0][-]{chapter.5}{Conclusion and Future Works}{}% 47
+\BOOKMARK [1][-]{section.5.1}{Conclusion}{chapter.5}% 48
+\BOOKMARK [1][-]{section.5.2}{Future Works}{chapter.5}% 49
+\BOOKMARK [0][-]{Appendix.1.A}{Environment Setup}{}% 50
+\BOOKMARK [1][-]{section.1.A.1}{Java}{Appendix.1.A}% 51
+\BOOKMARK [1][-]{section.1.A.2}{Python 2 and Pip}{Appendix.1.A}% 52
+\BOOKMARK [1][-]{section.1.A.3}{Stanford Dependency Parser CoreNLP 3.4 Server}{Appendix.1.A}% 53
+\BOOKMARK [1][-]{section.1.A.4}{Running Server}{Appendix.1.A}% 54
+\BOOKMARK [1][-]{section.1.A.5}{PWPS Running}{Appendix.1.A}% 55
+\BOOKMARK [0][-]{chapter*.28}{References}{}% 56

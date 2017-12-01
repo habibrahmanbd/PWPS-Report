@@ -14,62 +14,79 @@ model, we use CPLEX 12.6.1 (IBM ILOG, 2014)\cite{33}
 to generate the top $M = 100$ equation trees with
 a maximum stack depth of 10, aborting exploration
 upon hitting $10K$ feasible solutions or $30$ seconds.
-We use Python’s SymPy package for solving equations for the unknown. For the local and global models,we use Random forest classifier \cite{34,35}(Discussed in Appendix B).
-\section{Classifier}
-\subsection{Random Forests}
-\textbf{Random forests} or \textbf{random decision forests} are an ensemble learning method for classification, regression and other tasks, that operate by constructing a multitude of decision trees at training time and outputting the class that is the mode of the classes (classification) or mean prediction (regression) of the individual trees. Random decision forests correct for decision trees' habit of over-fitting to their training set.
-\subsubsection{Features of Random Forests}
-We assume that the user knows about the construction of single classification trees. Random Forests grows many classification trees. To classify a new object from an input vector, put the input vector down each of the trees in the forest. Each tree gives a classification, and we say the tree "votes" for that class. The forest chooses the classification having the most votes (over all the trees in the forest).
-\begin{itemize}
-\item It is unexcelled in accuracy among current algorithms.
-\item It runs efficiently on large data bases.
-\item It can handle thousands of input variables without variable deletion.
-\item It gives estimates of what variables are important in the classification.
-\item It generates an internal unbiased estimate of the generalization error as the forest building progresses.
-\item It has an effective method for estimating missing data and maintains accuracy when a large proportion of the data are missing.
-\item It has methods for balancing error in class population unbalanced data sets.
-\item Generated forests can be saved for future use on other data.
-\item Prototypes are computed that give information about the relation between the variables and the classification.
-\item It computes proximities between pairs of cases that can be used in clustering, locating outliers, or (by scaling) give interesting views of the data.
-\item The capabilities of the above can be extended to unlabeled data, leading to unsupervised clustering, data views and outliers detection.
-\item It offers an experimental method for detecting variable interactions.
-\end{itemize}
-\subsubsection{Algorithm of Random Forest}
-Decision trees are a popular method for various machine learning tasks. Tree learning "come closest to meeting the requirements for serving as an off-the-shelf procedure for data mining", because it is invariant under scaling and various other transformations of feature values, is robust to inclusion of irrelevant features, and produces inspectable models. However, they are seldom accurate.
+We use Python’s SymPy package for solving equations for the unknown. For the local and global models,we use Random forest classifier \cite{34,35}(Discussed in Appendix A).
+We have used \textbf{Linux (Ubuntu 16.04 LTS)} as our operating system. So, the following process shown only for Linux Environment.
+%\subsection{Java Installation}
+%For installing Java Compiler, the following command should run from the terminal.
+%\begin{center}
+%	\begin{lstlisting}
+%	sudo apt-get install default-jdk
+%	sudo apt-get install default-jre
+%	\end{lstlisting}
+%\end{center}
+%
+%\subsection{Python v2.0 and PIP}
+%We used \textbf{python 2} as our programming language. For installing Python 2 and Pip, the following command should run from the terminal.
+%\begin{center}
+%	\begin{lstlisting}
+%	sudo apt-get install python2
+%	sudo apt-get install pip2
+%	\end{lstlisting}
+%\end{center}
+%
+%\subsection{Stanford Dependency Parser CoreNLP 3.4 Server}
+%For parser, we have used Stanford Dependency Parser CoreNLP 3.4. This is available at \url{http://nlp.stanford.edu/software/stanford-corenlp-full-2014-06-16.zip}
+%
+%\subsection{Running Server}
+%Following command should run for installing the server essentials and other packages
+%\begin{lstlisting}
+%sudo pip install pexpect unidecode jsonrpclib 
+%git clone https://bitbucket.org/torotoki/corenlp-python.git
+%cd corenlp-python
+%wget http://nlp.stanford.edu/software/stanford-corenlp-full-2014-08-27.zip
+%unzip stanford-corenlp-full-2014-08-27.zip
+%\end{lstlisting}
+%Then, to launch a server:
+%\begin{lstlisting}
+%python corenlp/corenlp.py
+%\end{lstlisting}
+%Optionally, you can specify a host or port:
+%\begin{lstlisting}
+%python corenlp/corenlp.py -H 0.0.0.0 -p 3456
+%\end{lstlisting}
+%That will run a public JSON-RPC server on port 3456.
+%And you can specify Stanford CoreNLP directory:
+%\begin{lstlisting}
+%python corenlp/corenlp.py -S stanford-corenlp-full-2014-08-27/
+%\end{lstlisting}
+%\subsection{PWPS Running}
+%To get our code run the following command:
+%\begin{lstlisting}
+%git clone https://github.com/habibrahmanbd/PWPS
+%\end{lstlisting}
+%After that, for running our system:
+%\begin{lstlisting}
+%cd PWPS/
+%./PWPS problemset.json
+%\end{lstlisting}
+%where, \textbf{$problemset.json$} is the dataset.
 
-In particular, trees that are grown very deep tend to learn highly irregular patterns: they overfit their training sets, i.e. have low bias, but very high variance. Random forests are a way of averaging multiple deep decision trees, trained on different parts of the same training set, with the goal of reducing the variance.[3]:587–588 This comes at the expense of a small increase in the bias and some loss of interpretability, but generally greatly boosts the performance in the final model.
-
-\subsubsection{Tree bagging}
-The training algorithm for random forests applies the general technique of bootstrap aggregating, or bagging, to tree learners. Given a training set $X = x_1, ..., x_n$ with responses $Y = y_1, ..., y_n$, bagging repeatedly (B times) selects a random sample with replacement of the training set and fits trees to these samples:
-
-For $b = 1, ..., B:$
-\begin{enumerate}
-\item Sample, with replacement, $n$ training examples from $X$, $Y$; call these $X_b$, $Y_b$.
-\item Train a classification or regression tree $f_b$ on $X_b$, $Y_b$.
-\end{enumerate}
-
-After training, predictions for unseen samples $x'$ can be made by averaging the predictions from all the individual regression trees on $x'$:
-\begin{equation}
-{\displaystyle {\hat {f}}={\frac {1}{B}}\sum _{b=1}^{B}f_{b}(x')} 
-\end{equation}
-or by taking the majority vote in the case of classification trees.
-
-This bootstrapping procedure leads to better model performance because it decreases the variance of the model, without increasing the bias. This means that while the predictions of a single tree are highly sensitive to noise in its training set, the average of many trees is not, as long as the trees are not correlated. Simply training many trees on a single training set would give strongly correlated trees (or even the same tree many times, if the training algorithm is deterministic); bootstrap sampling is a way of de-correlating the trees by showing them different training sets.
-
-Additionally, an estimate of the uncertainty of the prediction can be made as the standard deviation of the predictions from all the individual regression trees on x':
-\begin{equation}
-{\displaystyle \sigma ={\sqrt {\frac {\sum _{b=1}^{B}(f_{b}(x')-{\hat {f}})^{2}}{B-1}}}.}
-\end{equation}
-
-The number of samples/trees, B, is a free parameter. Typically, a few hundred to several thousand trees are used, depending on the size and nature of the training set. An optimal number of trees B can be found using cross-validation, or by observing the out-of-bag error: the mean prediction error on each training sample $x_i$, using only the trees that did not have $x_i$ in their bootstrap sample. The training and test error tend to level off after some number of trees have been fit.
-
-\subsubsection{From bagging to random forests}
-The above procedure describes the original bagging algorithm for trees. Random forests differ in only one way from this general scheme: they use a modified tree learning algorithm that selects, at each candidate split in the learning process, a random subset of the features. This process is sometimes called "feature bagging". The reason for doing this is the correlation of the trees in an ordinary bootstrap sample: if one or a few features are very strong predictors for the response variable (target output), these features will be selected in many of the B trees, causing them to become correlated.
-
-Typically, for a classification problem with $p$ features, $\sqrt{p}$ (rounded down) features are used in each split. For regression problems the inventors recommend $p/3$ (rounded down) with a minimum node size of 5 as the default.
-		
-\section{Dataset}
-This work deals with percentage word problems that map to single equations with varying length. Every equation may involve multiple math operations including multiplication, division, subtraction, and addition over non-negative rational numbers and one variable. 
+\section{Dataset Description}
+This work deals with percentage word problems that map to single equations with varying length. Every equation may involve multiple math operations including multiplication, division, subtraction, and addition over non-negative rational numbers and one variable. A sample data in JSON format is shown in the Fig. \ref{fig:data} .
+\begin{figure}[H]
+	\begin{center}
+		\begin{lstlisting}
+{
+	"iIndex": 121,
+	"lSolutions": [ 28.0 ],
+	"lEquations": [ "x=56.0*(50.0/100.0)" ],
+	"sQuestion": " Beth took a math quiz last week. There were 56 problems on the quiz and Beth answered 50% of them correctly. How many problems did Beth get correct? "
+}
+		\end{lstlisting}
+	\end{center}
+	\caption{Sample Dataset in JSON Format}
+	\label{fig:data}
+\end{figure}
 
 We collected a new dataset from \url{http://math-aids.com}, \url{http://ixl.com}, \url{https://www.khanacademy.org} and \url{http://algebra.com}. Dataset statistics is given below in TABLE \ref{tab:datasetstat}.
 
@@ -89,4 +106,6 @@ We collected a new dataset from \url{http://math-aids.com}, \url{http://ixl.com}
 	\end{center}
 	\label{tab:datasetstat}
 \end{table}
+
+\section{Implementation Procedure}
 \end{document}

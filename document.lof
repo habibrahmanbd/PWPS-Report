@@ -1,14 +1,16 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Example of a Percentage Word Problem\relax }}{1}{figure.caption.4}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Example of a Percentage Word Problem\relax }}{2}{figure.caption.4}
 \contentsline {figure}{\numberline {1.2}{\ignorespaces Flowchart of PWPS\relax }}{3}{figure.caption.5}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Related to Percent Word Problems\cite {1}\relax }}{6}{figure.caption.6}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Flowchart of PWPS\relax }}{8}{figure.caption.6}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Algorithm of PWPS\relax }}{9}{figure.caption.7}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Converted to Fraction and \IeC {\textquoteleft }\%\IeC {\textquoteright } sign replace by \IeC {\textquoteleft }times\IeC {\textquoteright } in the problem text\relax }}{10}{figure.caption.8}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Grounded Qsets from Fig. \ref {fig:conv}\relax }}{11}{figure.caption.10}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Candidate equation tree generated with ILP\relax }}{12}{figure.caption.13}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Flowchart of PWPS\relax }}{9}{figure.caption.7}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Algorithm of PWPS\relax }}{10}{figure.caption.8}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Converted to Fraction and \IeC {\textquoteleft }\%\IeC {\textquoteright } sign replace by \IeC {\textquoteleft }times\IeC {\textquoteright } in the problem text\relax }}{11}{figure.caption.9}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Grounded Qsets from Fig. \ref {fig:conv}\relax }}{12}{figure.caption.11}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Candidate equation tree generated with ILP\relax }}{13}{figure.caption.14}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Sample Dataset in JSON Format\relax }}{22}{figure.caption.20}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Accuracy Versus $\alpha $\relax }}{22}{figure.caption.20}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Accuracy Versus $\alpha $\relax }}{24}{figure.caption.22}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
