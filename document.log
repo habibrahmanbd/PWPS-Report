@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.25)  2 DEC 2017 01:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.25)  2 DEC 2017 14:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1120,6 +1120,22 @@ Package: multicol 2015/08/19 v1.8n multicolumn formatting (FMi)
 \colbreak@box=\box70
 \mc@col@check@num=\count168
 )
+(/usr/share/texlive/texmf-dist/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+\c@r@tfl@t=\count169
+\rotFPtop=\skip53
+\rotFPbot=\skip54
+\rot@float@box=\box71
+\rot@mess@toks=\toks47
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
+)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryshapes.geometric.code.tex
 File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
@@ -1180,26 +1196,26 @@ File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
 s.multipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.1a (rcs-revision 1.2)
 
-\pgfnodepartlowerbox=\box71
-\pgfnodeparttwobox=\box72
-\pgfnodepartthreebox=\box73
-\pgfnodepartfourbox=\box74
-\pgfnodeparttwentybox=\box75
-\pgfnodepartnineteenbox=\box76
-\pgfnodeparteighteenbox=\box77
-\pgfnodepartseventeenbox=\box78
-\pgfnodepartsixteenbox=\box79
-\pgfnodepartfifteenbox=\box80
-\pgfnodepartfourteenbox=\box81
-\pgfnodepartthirteenbox=\box82
-\pgfnodeparttwelvebox=\box83
-\pgfnodepartelevenbox=\box84
-\pgfnodeparttenbox=\box85
-\pgfnodepartninebox=\box86
-\pgfnodeparteightbox=\box87
-\pgfnodepartsevenbox=\box88
-\pgfnodepartsixbox=\box89
-\pgfnodepartfivebox=\box90
+\pgfnodepartlowerbox=\box72
+\pgfnodeparttwobox=\box73
+\pgfnodepartthreebox=\box74
+\pgfnodepartfourbox=\box75
+\pgfnodeparttwentybox=\box76
+\pgfnodepartnineteenbox=\box77
+\pgfnodeparteighteenbox=\box78
+\pgfnodepartseventeenbox=\box79
+\pgfnodepartsixteenbox=\box80
+\pgfnodepartfifteenbox=\box81
+\pgfnodepartfourteenbox=\box82
+\pgfnodepartthirteenbox=\box83
+\pgfnodeparttwelvebox=\box84
+\pgfnodepartelevenbox=\box85
+\pgfnodeparttenbox=\box86
+\pgfnodepartninebox=\box87
+\pgfnodeparteightbox=\box88
+\pgfnodepartsevenbox=\box89
+\pgfnodepartsixbox=\box90
+\pgfnodepartfivebox=\box91
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytrees.code.tex
@@ -1214,9 +1230,9 @@ Package tocbibind Note: Using chapter style headings, unless overridden.
 
 ) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count169
-\Gm@cntv=\count170
-\c@Gm@tempcnt=\count171
+\Gm@cnth=\count170
+\Gm@cntv=\count171
+\c@Gm@tempcnt=\count172
 \Gm@bindingoffset=\dimen264
 \Gm@wd@mp=\dimen265
 \Gm@odd@mp=\dimen266
@@ -1225,7 +1241,7 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layoutheight=\dimen269
 \Gm@layouthoffset=\dimen270
 \Gm@layoutvoffset=\dimen271
-\Gm@dimlist=\toks47
+\Gm@dimlist=\toks48
 )
 (./document.aux
 
@@ -1234,37 +1250,37 @@ LaTeX Warning: Label `fig:flowchart' multiply defined.
 )
 \openout1 = `document.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 82.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 83.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count172
+\scratchcounter=\count173
 \scratchdimen=\dimen272
-\scratchbox=\box91
-\nofMPsegments=\count173
-\nofMParguments=\count174
-\everyMPshowfont=\toks48
-\MPscratchCnt=\count175
+\scratchbox=\box92
+\nofMPsegments=\count174
+\nofMParguments=\count175
+\everyMPshowfont=\toks49
+\MPscratchCnt=\count176
 \MPscratchDim=\dimen273
-\MPnumerator=\count176
-\makeMPintoPDFobject=\count177
-\everyMPtoPDFconversion=\toks49
+\MPnumerator=\count177
+\makeMPintoPDFobject=\count178
+\everyMPtoPDFconversion=\toks50
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -1280,8 +1296,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box92
-Package hyperref Info: Link coloring OFF on input line 82.
+\AtBeginShipoutBox=\box93
+Package hyperref Info: Link coloring OFF on input line 83.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1289,25 +1305,26 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count178
+\c@section@level=\count179
 )
-LaTeX Info: Redefining \ref on input line 82.
-LaTeX Info: Redefining \pageref on input line 82.
-LaTeX Info: Redefining \nameref on input line 82.
+LaTeX Info: Redefining \ref on input line 83.
+LaTeX Info: Redefining \pageref on input line 83.
+LaTeX Info: Redefining \nameref on input line 83.
 
 (./document.out) (./document.out)
 \@outlinefile=\write4
 \openout4 = `document.out'.
 
-\c@lstlisting=\count179
+\c@lstlisting=\count180
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
  ABD: EveryShipout initializing macros
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.13} into 
 your preamble.
- on input line 82.
+ on input line 83.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1343,7 +1360,7 @@ your preamble.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(./chapters/i_title.tex <imgs/ruetlogo.pdf, id=230, 481.8pt x 481.8pt>
+(./chapters/i_title.tex <imgs/ruetlogo.pdf, id=254, 481.8pt x 481.8pt>
 File: imgs/ruetlogo.pdf Graphic file (type pdf)
 
 <use imgs/ruetlogo.pdf>
@@ -1370,14 +1387,18 @@ Package pdftex.def Info: imgs/ruetlogo.pdf used on input line 10.
 (pdftex.def)             Requested size: 113.81114pt x 113.81102pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <16> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 19.
- [2
 
-])
-(./chapters/iv_abstract.tex [3
+Underfull \hbox (badness 10000) in paragraph at lines 41--49
+
+ []
+
+[2
+
+]) (./chapters/iv_abstract.tex [3
 
 ])
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 92.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 93.
  (./document.toc [4
 
 
@@ -1385,16 +1406,16 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 \tf@toc=\write5
 \openout5 = `document.toc'.
 
- [6] (./document.lof)
-\tf@lof=\write6
-\openout6 = `document.lof'.
+ [6]
+(./document.lot)
+\tf@lot=\write6
+\openout6 = `document.lot'.
 
+ [7
 
-[7
-
-] (./document.lot)
-\tf@lot=\write7
-\openout7 = `document.lot'.
+] (./document.lof)
+\tf@lof=\write7
+\openout7 = `document.lof'.
 
  [8
 
@@ -1415,7 +1436,7 @@ File: omsptm.fd
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 73.
  [4]
-<imgs/news.png, id=428, 166.6225pt x 115.43124pt>
+<imgs/news.png, id=476, 166.6225pt x 115.43124pt>
 File: imgs/news.png Graphic file (type png)
  <use imgs/news.png>
 Package pdftex.def Info: imgs/news.png used on input line 122.
@@ -1425,7 +1446,7 @@ Overfull \hbox (21.07982pt too wide) in paragraph at lines 122--124
 [][]
  []
 
-<imgs/stock.png, id=429, 496.85625pt x 417.56pt>
+<imgs/stock.png, id=477, 496.85625pt x 417.56pt>
 File: imgs/stock.png Graphic file (type png)
  <use imgs/stock.png>
 Package pdftex.def Info: imgs/stock.png used on input line 125.
@@ -1435,7 +1456,7 @@ Overfull \hbox (3.96237pt too wide) in paragraph at lines 125--127
 [][]
  []
 
-<imgs/product_prices.png, id=431, 803.0pt x 803.0pt>
+<imgs/product_prices.png, id=479, 803.0pt x 803.0pt>
 File: imgs/product_prices.png Graphic file (type png)
 
 <use imgs/product_prices.png>
@@ -1446,7 +1467,7 @@ Overfull \hbox (3.30916pt too wide) in paragraph at lines 128--130
 [][]
  []
 
-<imgs/chatbot.png, id=432, 200.75pt x 200.75pt>
+<imgs/chatbot.png, id=480, 200.75pt x 200.75pt>
 File: imgs/chatbot.png Graphic file (type png)
  <use imgs/chatbot.png>
 Package pdftex.def Info: imgs/chatbot.png used on input line 131.
@@ -1509,32 +1530,69 @@ it/12 w[]; l[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; where; i \OT1/cmr/m/n/12 =
 [13] [14] [15] [16] [17] [18] [19]) (./chapters/4_Experimental_Evaulation.tex
 [20]
 Chapter 3.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 78.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 77.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 ) [21
 
 ]
-Overfull \hbox (18.37129pt too wide) in paragraph at lines 91--92
+Overfull \hbox (18.37129pt too wide) in paragraph at lines 90--91
 []\OT1/ptm/m/n/12 We col-lected a new dataset from []$\OT1/pcr/m/n/12 http : / 
 / math-[]aids . com$[]\OT1/ptm/m/n/12 , []$\OT1/pcr/m/n/12 http : / / ixl . com
 $[]\OT1/ptm/m/n/12 , []$\OT1/pcr/m/n/12 https :
  []
 
-) (./chapters/5_performence_result.tex [22] [23]
+[22] [23]
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 194.
+
+
+Underfull \hbox (badness 4805) in paragraph at lines 206--206
+\OT1/ptm/m/n/12 types : "book" "Al-ice"
+ []
+
+[24] <imgs/ILP_tree.png, id=689, 989.6975pt x 563.10374pt>
+File: imgs/ILP_tree.png Graphic file (type png)
+
+<use imgs/ILP_tree.png>
+Package pdftex.def Info: imgs/ILP_tree.png used on input line 214.
+(pdftex.def)             Requested size: 672.9854pt x 382.90549pt.
+ [25 <./imgs/ILP_tree.png>]
+<imgs/"Local Model Features".png, id=696, 1218.5525pt x 648.4225pt>
+File: imgs/"Local Model Features".png Graphic file (type png)
+
+<use imgs/"Local Model Features".png>
+Package pdftex.def Info: imgs/"Local Model Features".png used on input line 224
+.
+(pdftex.def)             Requested size: 633.65096pt x 337.18164pt.
+
+<imgs/global_features.png, id=699, 1201.48875pt x 611.28375pt>
+File: imgs/global_features.png Graphic file (type png)
+
+<use imgs/global_features.png>
+Package pdftex.def Info: imgs/global_features.png used on input line 235.
+(pdftex.def)             Requested size: 600.74292pt x 305.64113pt.
+ [26
+
+
+
+ <./imgs/Local Model Features.png>] [27 <./imgs/global_features.png>]) (./chapt
+ers/5_performence_result.tex [28
+
+]
 Chapter 4.
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 58.
 
-[24
+[29
 
 ]
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 61.
 
-[25] [26]) (./chapters/6_future_works.tex [27]
+[30] [31]) (./chapters/6_future_works.tex [32]
 Chapter 5.
-) (./chapters/app_code_snippets.tex [28
+) (./chapters/app_code_snippets.tex [33
 
 ]
 Appendix A.
@@ -1544,29 +1602,29 @@ Overfull \hbox (10.33191pt too wide) in paragraph at lines 25--26
 -[]2014-[]06-[]16 . zip$[] 
  []
 
-[29
+[34
 
-]) (./document.bbl [30] [31
+]) (./document.bbl [35] [36
 
-] [32] [33]) [34]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 115.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 115.
+] [37] [38]) [39]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 117.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 117.
  (./document.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 115.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 115.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 117.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 117.
 Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: 26E4DBF162AA7F0D13525C39807BF116;3642.
+(rerunfilecheck)             Checksum: 78EC33AF37856E851069E69C307B37A0;4132.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 115.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 117.
  ) 
 Here is how much of TeX's memory you used:
- 32921 strings out of 493029
- 764175 string characters out of 6136234
- 966327 words of memory out of 5000000
- 35635 multiletter control sequences out of 15000+600000
+ 33059 strings out of 493029
+ 766490 string characters out of 6136234
+ 967589 words of memory out of 5000000
+ 35741 multiletter control sequences out of 15000+600000
  28145 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,15n,101p,1084b,2007s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1584,10 +1642,10 @@ hare/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on document.pdf (43 pages, 522892 bytes).
+Output written on document.pdf (48 pages, 872999 bytes).
 PDF statistics:
- 830 PDF objects out of 1000 (max. 8388607)
- 748 compressed objects within 8 object streams
- 225 named destinations out of 1000 (max. 500000)
- 486 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 918 PDF objects out of 1000 (max. 8388607)
+ 825 compressed objects within 9 object streams
+ 244 named destinations out of 1000 (max. 500000)
+ 549 words of extra memory for PDF output out of 10000 (max. 10000000)
 

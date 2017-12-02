@@ -1,8 +1,8 @@
 \BOOKMARK [0][-]{Doc-Start}{Acknowledgement}{}% 1
 \BOOKMARK [0][-]{Doc-Start}{Certificate}{}% 2
 \BOOKMARK [0][-]{Doc-Start}{ Abstract}{}% 3
-\BOOKMARK [0][-]{chapter*.2}{List of Figures}{}% 4
-\BOOKMARK [0][-]{chapter*.3}{List of Tables}{}% 5
+\BOOKMARK [0][-]{chapter*.2}{List of Tables}{}% 4
+\BOOKMARK [0][-]{chapter*.3}{List of Figures}{}% 5
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 6
 \BOOKMARK [1][-]{section.1.1}{Introduction}{chapter.1}% 7
 \BOOKMARK [1][-]{section.1.2}{Math Word Problem}{chapter.1}% 8
@@ -39,18 +39,24 @@
 \BOOKMARK [1][-]{section.3.2}{Experimental Setup}{chapter.3}% 39
 \BOOKMARK [1][-]{section.3.3}{Dataset Description}{chapter.3}% 40
 \BOOKMARK [1][-]{section.3.4}{Implementation Procedure}{chapter.3}% 41
-\BOOKMARK [0][-]{chapter.4}{Result and Performance Analysis}{}% 42
-\BOOKMARK [1][-]{section.4.1}{Result}{chapter.4}% 43
-\BOOKMARK [2][-]{subsection.4.1.1}{Comparison}{section.4.1}% 44
-\BOOKMARK [2][-]{subsection.4.1.2}{Ablation Study}{section.4.1}% 45
-\BOOKMARK [1][-]{section.4.2}{Error Analysis}{chapter.4}% 46
-\BOOKMARK [0][-]{chapter.5}{Conclusion and Future Works}{}% 47
-\BOOKMARK [1][-]{section.5.1}{Conclusion}{chapter.5}% 48
-\BOOKMARK [1][-]{section.5.2}{Future Works}{chapter.5}% 49
-\BOOKMARK [0][-]{Appendix.1.A}{Environment Setup}{}% 50
-\BOOKMARK [1][-]{section.1.A.1}{Java}{Appendix.1.A}% 51
-\BOOKMARK [1][-]{section.1.A.2}{Python 2 and Pip}{Appendix.1.A}% 52
-\BOOKMARK [1][-]{section.1.A.3}{Stanford Dependency Parser CoreNLP 3.4 Server}{Appendix.1.A}% 53
-\BOOKMARK [1][-]{section.1.A.4}{Running Server}{Appendix.1.A}% 54
-\BOOKMARK [1][-]{section.1.A.5}{PWPS Running}{Appendix.1.A}% 55
-\BOOKMARK [0][-]{chapter*.28}{References}{}% 56
+\BOOKMARK [2][-]{subsection.3.4.1}{Converting Problem Text into Fraction}{section.3.4}% 42
+\BOOKMARK [2][-]{subsection.3.4.2}{Tokenize, Replace, and Grounding}{section.3.4}% 43
+\BOOKMARK [2][-]{subsection.3.4.3}{Integer Linear Programming}{section.3.4}% 44
+\BOOKMARK [2][-]{subsection.3.4.4}{Local Qset Relationship Model Features}{section.3.4}% 45
+\BOOKMARK [2][-]{subsection.3.4.5}{Global equation Model Features}{section.3.4}% 46
+\BOOKMARK [1][-]{section.3.5}{Conclusion}{chapter.3}% 47
+\BOOKMARK [0][-]{chapter.4}{Result and Performance Analysis}{}% 48
+\BOOKMARK [1][-]{section.4.1}{Result}{chapter.4}% 49
+\BOOKMARK [2][-]{subsection.4.1.1}{Comparison}{section.4.1}% 50
+\BOOKMARK [2][-]{subsection.4.1.2}{Ablation Study}{section.4.1}% 51
+\BOOKMARK [1][-]{section.4.2}{Error Analysis}{chapter.4}% 52
+\BOOKMARK [0][-]{chapter.5}{Conclusion and Future Works}{}% 53
+\BOOKMARK [1][-]{section.5.1}{Conclusion}{chapter.5}% 54
+\BOOKMARK [1][-]{section.5.2}{Future Works}{chapter.5}% 55
+\BOOKMARK [0][-]{Appendix.1.A}{Environment Setup}{}% 56
+\BOOKMARK [1][-]{section.1.A.1}{Java}{Appendix.1.A}% 57
+\BOOKMARK [1][-]{section.1.A.2}{Python 2 and Pip}{Appendix.1.A}% 58
+\BOOKMARK [1][-]{section.1.A.3}{Stanford Dependency Parser CoreNLP 3.4 Server}{Appendix.1.A}% 59
+\BOOKMARK [1][-]{section.1.A.4}{Running Server}{Appendix.1.A}% 60
+\BOOKMARK [1][-]{section.1.A.5}{PWPS Running}{Appendix.1.A}% 61
+\BOOKMARK [0][-]{chapter*.34}{References}{}% 62

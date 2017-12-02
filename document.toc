@@ -1,8 +1,8 @@
 \contentsline {chapter}{Acknowledgement}{i}{Doc-Start}
 \contentsline {chapter}{\selectfont Certificate}{ii}{Doc-Start}
 \contentsline {chapter}{ \selectfont Abstract}{iii}{Doc-Start}
-\contentsline {chapter}{List of Figures}{vii}{chapter*.2}
-\contentsline {chapter}{List of Tables}{viii}{chapter*.3}
+\contentsline {chapter}{List of Tables}{vii}{chapter*.2}
+\contentsline {chapter}{List of Figures}{viii}{chapter*.3}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Math Word Problem}{1}{section.1.2}
@@ -43,20 +43,26 @@
 \contentsline {section}{\numberline {3.2}Experimental Setup}{21}{section.3.2}
 \contentsline {section}{\numberline {3.3}Dataset Description}{22}{section.3.3}
 \contentsline {section}{\numberline {3.4}Implementation Procedure}{23}{section.3.4}
-\contentsline {chapter}{\numberline {4}Result and Performance Analysis}{24}{chapter.4}
-\contentsline {section}{\numberline {4.1}Result}{24}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Comparison}{25}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Ablation Study}{25}{subsection.4.1.2}
-\contentsline {subsubsection}{No Local Model}{25}{section*.24}
-\contentsline {subsubsection}{No Global Model}{26}{section*.25}
-\contentsline {section}{\numberline {4.2}Error Analysis}{26}{section.4.2}
-\contentsline {chapter}{\numberline {5}Conclusion and Future Works}{28}{chapter.5}
-\contentsline {section}{\numberline {5.1}Conclusion}{28}{section.5.1}
-\contentsline {section}{\numberline {5.2}Future Works}{28}{section.5.2}
-\contentsline {chapter}{\numberline {A}Environment Setup}{29}{Appendix.1.A}
-\contentsline {section}{\numberline {A.1}Java}{29}{section.1.A.1}
-\contentsline {section}{\numberline {A.2}Python 2 and Pip}{29}{section.1.A.2}
-\contentsline {section}{\numberline {A.3}Stanford Dependency Parser CoreNLP 3.4 Server}{29}{section.1.A.3}
-\contentsline {section}{\numberline {A.4}Running Server}{30}{section.1.A.4}
-\contentsline {section}{\numberline {A.5}PWPS Running}{30}{section.1.A.5}
-\contentsline {chapter}{References}{31}{chapter*.28}
+\contentsline {subsection}{\numberline {3.4.1}Converting Problem Text into Fraction}{23}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Tokenize, Replace, and Grounding}{23}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Integer Linear Programming}{24}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}Local Qset Relationship Model Features}{26}{subsection.3.4.4}
+\contentsline {subsection}{\numberline {3.4.5}Global equation Model Features}{27}{subsection.3.4.5}
+\contentsline {section}{\numberline {3.5}Conclusion}{28}{section.3.5}
+\contentsline {chapter}{\numberline {4}Result and Performance Analysis}{29}{chapter.4}
+\contentsline {section}{\numberline {4.1}Result}{29}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Comparison}{30}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Ablation Study}{30}{subsection.4.1.2}
+\contentsline {subsubsection}{No Local Model}{30}{section*.30}
+\contentsline {subsubsection}{No Global Model}{31}{section*.31}
+\contentsline {section}{\numberline {4.2}Error Analysis}{31}{section.4.2}
+\contentsline {chapter}{\numberline {5}Conclusion and Future Works}{33}{chapter.5}
+\contentsline {section}{\numberline {5.1}Conclusion}{33}{section.5.1}
+\contentsline {section}{\numberline {5.2}Future Works}{33}{section.5.2}
+\contentsline {chapter}{\numberline {A}Environment Setup}{34}{Appendix.1.A}
+\contentsline {section}{\numberline {A.1}Java}{34}{section.1.A.1}
+\contentsline {section}{\numberline {A.2}Python 2 and Pip}{34}{section.1.A.2}
+\contentsline {section}{\numberline {A.3}Stanford Dependency Parser CoreNLP 3.4 Server}{34}{section.1.A.3}
+\contentsline {section}{\numberline {A.4}Running Server}{35}{section.1.A.4}
+\contentsline {section}{\numberline {A.5}PWPS Running}{35}{section.1.A.5}
+\contentsline {chapter}{References}{36}{chapter*.34}

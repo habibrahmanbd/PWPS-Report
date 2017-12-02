@@ -21,6 +21,18 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{wikiparsing}
+Wikipedia, ``Parsing,'' \url{https://en.wikipedia.org/wiki/Parsing}.
+
+\bibitem{googleimage}
+Google, ``Images related to percentage word problem,''
+  \url{https://www.google.com/search?q=images+related+to+percentage+word+problems}.
+
+\bibitem{3}
+R.~Koncel-Kedziorski, A.~S. Hannaneh~Hajishirzi, O.~Etzioni, and S.~D. Ang,
+  ``Parsing algebraic word problems into equations,'' \emph{Empirical Methods
+  in Natural Language Processing}, pp. 1132--1142, 2015.
+
 \bibitem{4}
 D.~Bobrow, ``Natural language input for a computer problem-solving system,''
   \emph{Report MAC-TR-1, Project MAC, MIT, Cambridge}, 1964a.
@@ -64,11 +76,6 @@ S.~Roy and D.~Roth, ``Solving general arithmetic word problems,''
 N.~Kushman, Y.~Artzi, L.~Zettlemoyer, and R.~Barzilay, ``Learning to
   automatically solve algebra word problems,'' \emph{Association for
   Computational Linguistics}, pp. 271--281, 2014.
-
-\bibitem{3}
-R.~Koncel-Kedziorski, A.~S. Hannaneh~Hajishirzi, O.~Etzioni, and S.~D. Ang,
-  ``Parsing algebraic word problems into equations,'' \emph{Empirical Methods
-  in Natural Language Processing}, pp. 1132--1142, 2015.
 
 \bibitem{12}
 L.~Zhou, S.~Dai, and L.~Chen, ``Learn to solve algebra word problems using
