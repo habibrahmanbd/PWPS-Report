@@ -21,6 +21,11 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{3}
+R.~Koncel-Kedziorski, A.~S. Hannaneh~Hajishirzi, O.~Etzioni, and S.~D. Ang,
+  ``Parsing algebraic word problems into equations,'' \emph{Empirical Methods
+  in Natural Language Processing}, pp. 1132--1142, 2015.
+
 \bibitem{wikiparsing}
 Wikipedia, ``Parsing,'' \url{https://en.wikipedia.org/wiki/Parsing}.
 
@@ -28,10 +33,9 @@ Wikipedia, ``Parsing,'' \url{https://en.wikipedia.org/wiki/Parsing}.
 Google, ``Images related to percentage word problem,''
   \url{https://www.google.com/search?q=images+related+to+percentage+word+problems}.
 
-\bibitem{3}
-R.~Koncel-Kedziorski, A.~S. Hannaneh~Hajishirzi, O.~Etzioni, and S.~D. Ang,
-  ``Parsing algebraic word problems into equations,'' \emph{Empirical Methods
-  in Natural Language Processing}, pp. 1132--1142, 2015.
+\bibitem{kfoldimage}
+Wikipedia, ``Cross-validation (statistics),''
+  \url{https://en.wikipedia.org/wiki/Cross-validation_(statistics)}.
 
 \bibitem{4}
 D.~Bobrow, ``Natural language input for a computer problem-solving system,''

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.25)  2 DEC 2017 14:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.25)  3 DEC 2017 22:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1250,21 +1250,21 @@ LaTeX Warning: Label `fig:flowchart' multiply defined.
 )
 \openout1 = `document.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 83.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 84.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
@@ -1297,7 +1297,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box93
-Package hyperref Info: Link coloring OFF on input line 83.
+Package hyperref Info: Link coloring OFF on input line 84.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1307,9 +1307,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count179
 )
-LaTeX Info: Redefining \ref on input line 83.
-LaTeX Info: Redefining \pageref on input line 83.
-LaTeX Info: Redefining \nameref on input line 83.
+LaTeX Info: Redefining \ref on input line 84.
+LaTeX Info: Redefining \pageref on input line 84.
+LaTeX Info: Redefining \nameref on input line 84.
 
 (./document.out) (./document.out)
 \@outlinefile=\write4
@@ -1324,7 +1324,7 @@ Package caption Info: End \AtBeginDocument code.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.13} into 
 your preamble.
- on input line 83.
+ on input line 84.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1360,7 +1360,7 @@ your preamble.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(./chapters/i_title.tex <imgs/ruetlogo.pdf, id=254, 481.8pt x 481.8pt>
+(./chapters/i_title.tex <imgs/ruetlogo.pdf, id=274, 481.8pt x 481.8pt>
 File: imgs/ruetlogo.pdf Graphic file (type pdf)
 
 <use imgs/ruetlogo.pdf>
@@ -1398,7 +1398,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--49
 
 ])
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 93.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 94.
  (./document.toc [4
 
 
@@ -1424,104 +1424,102 @@ Chapter 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 13.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
 [1
 
 
 ] [2] [3]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 73.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 78.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 73.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 78.
  [4]
-<imgs/news.png, id=476, 166.6225pt x 115.43124pt>
+<imgs/news.png, id=506, 166.6225pt x 115.43124pt>
 File: imgs/news.png Graphic file (type png)
  <use imgs/news.png>
-Package pdftex.def Info: imgs/news.png used on input line 122.
+Package pdftex.def Info: imgs/news.png used on input line 117.
 (pdftex.def)             Requested size: 91.64265pt x 63.48737pt.
 
-Overfull \hbox (21.07982pt too wide) in paragraph at lines 122--124
+Overfull \hbox (21.07982pt too wide) in paragraph at lines 117--119
 [][]
  []
 
-<imgs/stock.png, id=477, 496.85625pt x 417.56pt>
+<imgs/stock.png, id=507, 496.85625pt x 417.56pt>
 File: imgs/stock.png Graphic file (type png)
  <use imgs/stock.png>
-Package pdftex.def Info: imgs/stock.png used on input line 125.
+Package pdftex.def Info: imgs/stock.png used on input line 120.
 (pdftex.def)             Requested size: 74.5252pt x 62.63129pt.
 
-Overfull \hbox (3.96237pt too wide) in paragraph at lines 125--127
+Overfull \hbox (3.96237pt too wide) in paragraph at lines 120--122
 [][]
  []
 
-<imgs/product_prices.png, id=479, 803.0pt x 803.0pt>
+<imgs/product_prices.png, id=509, 803.0pt x 803.0pt>
 File: imgs/product_prices.png Graphic file (type png)
 
 <use imgs/product_prices.png>
-Package pdftex.def Info: imgs/product_prices.png used on input line 128.
+Package pdftex.def Info: imgs/product_prices.png used on input line 123.
 (pdftex.def)             Requested size: 73.872pt x 73.872pt.
 
-Overfull \hbox (3.30916pt too wide) in paragraph at lines 128--130
+Overfull \hbox (3.30916pt too wide) in paragraph at lines 123--125
 [][]
  []
 
-<imgs/chatbot.png, id=480, 200.75pt x 200.75pt>
+<imgs/chatbot.png, id=510, 200.75pt x 200.75pt>
 File: imgs/chatbot.png Graphic file (type png)
  <use imgs/chatbot.png>
-Package pdftex.def Info: imgs/chatbot.png used on input line 131.
+Package pdftex.def Info: imgs/chatbot.png used on input line 126.
 (pdftex.def)             Requested size: 70.26353pt x 70.26353pt.
- [5]
-[6 <./imgs/news.png> <./imgs/stock.png> <./imgs/product_prices.png> <./imgs/cha
-tbot.png>]) (./chapters/3_implementation.tex [7]
+ [5 <./imgs/news.png> <./imgs/stock.png> <./imgs/product_prices.png> <./imgs/ch
+atbot.png>] [6]) (./chapters/3_implementation.tex [7]
 Chapter 2.
 [8
 
-] [9]
+]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 61.
- [10pdfTeX warning (ext4): destination with the same identifier (name{figure.ca
-ption.8}) has been already used, duplicate ignored
+ [9] [10pdfTeX warning (ext4): destination with the same identifier (name{figur
+e.caption.8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.99 \subsection
-                {Convert to Fraction}pdfTeX warning (ext4): destination with th
-e same identifier (name{figure.caption.8}) has been already used, duplicate ign
-ored
+l.100 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+caption.8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.99 \subsection
-                {Convert to Fraction}]
+l.100 
+      ]
 
 Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 103.
+(amsmath)                 on input line 102.
 
 
-Overfull \hbox (0.9968pt too wide) in paragraph at lines 140--141
+Overfull \hbox (0.9968pt too wide) in paragraph at lines 139--140
 []\OT1/ptm/m/n/12 A Qset is ground as a com-pact rep-re-sen-ta-tion of the prop
 -er-ties based on Ta-ble []2.1[]. Grounded
  []
 
 [11]
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 187.
+LaTeX Warning: Command \textendash invalid in math mode on input line 186.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 211--211
+Underfull \hbox (badness 10000) in paragraph at lines 210--210
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 211--211
+Underfull \hbox (badness 10000) in paragraph at lines 210--210
 
  []
 
 [12]
-Overfull \hbox (6.50552pt too wide) in paragraph at lines 250--251
+Overfull \hbox (6.50552pt too wide) in paragraph at lines 249--250
 \OT1/ptm/m/n/12 prob-lem text, \OT1/ptm/m/it/12 p \OT1/ptm/m/n/12 like ALGES. O
 ur dataset con-tains prob-lem text-solution pairs $\OT1/cmr/m/n/12 (\OML/cmm/m/
 it/12 w[]; l[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; where; i \OT1/cmr/m/n/12 =
@@ -1551,44 +1549,25 @@ Underfull \hbox (badness 4805) in paragraph at lines 206--206
 \OT1/ptm/m/n/12 types : "book" "Al-ice"
  []
 
-[24] <imgs/ILP_tree.png, id=689, 989.6975pt x 563.10374pt>
-File: imgs/ILP_tree.png Graphic file (type png)
+[24] <imgs/K-fold_cross_validation_EN.jpg, id=721, 527.9725pt x 262.9825pt>
+File: imgs/K-fold_cross_validation_EN.jpg Graphic file (type jpg)
 
-<use imgs/ILP_tree.png>
-Package pdftex.def Info: imgs/ILP_tree.png used on input line 214.
-(pdftex.def)             Requested size: 672.9854pt x 382.90549pt.
- [25 <./imgs/ILP_tree.png>]
-<imgs/"Local Model Features".png, id=696, 1218.5525pt x 648.4225pt>
-File: imgs/"Local Model Features".png Graphic file (type png)
-
-<use imgs/"Local Model Features".png>
-Package pdftex.def Info: imgs/"Local Model Features".png used on input line 224
-.
-(pdftex.def)             Requested size: 633.65096pt x 337.18164pt.
-
-<imgs/global_features.png, id=699, 1201.48875pt x 611.28375pt>
-File: imgs/global_features.png Graphic file (type png)
-
-<use imgs/global_features.png>
-Package pdftex.def Info: imgs/global_features.png used on input line 235.
-(pdftex.def)             Requested size: 600.74292pt x 305.64113pt.
- [26
-
-
-
- <./imgs/Local Model Features.png>] [27 <./imgs/global_features.png>]) (./chapt
-ers/5_performence_result.tex [28
+<use imgs/K-fold_cross_validation_EN.jpg>
+Package pdftex.def Info: imgs/K-fold_cross_validation_EN.jpg used on input line
+ 240.
+(pdftex.def)             Requested size: 345.8205pt x 172.25278pt.
+ [25 <./imgs/K-fold_cross_validation_EN.jpg>] [26]) (./chapters/5_performence_r
+esult.tex [27]
+Chapter 4.
+[28
 
 ]
-Chapter 4.
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 58.
 
-[29
+[29]
 
-]
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 61.
+LaTeX Warning: Command \textendash invalid in math mode on input line 72.
 
 [30] [31]) (./chapters/6_future_works.tex [32]
 Chapter 5.
@@ -1607,27 +1586,27 @@ Overfull \hbox (10.33191pt too wide) in paragraph at lines 25--26
 ]) (./document.bbl [35] [36
 
 ] [37] [38]) [39]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 117.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 117.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 118.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 118.
  (./document.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 117.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 117.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 118.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 118.
 Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: 78EC33AF37856E851069E69C307B37A0;4132.
+(rerunfilecheck)             Checksum: 20229AB3CBCD7A1992E8918F586160D8;4447.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 117.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 118.
  ) 
 Here is how much of TeX's memory you used:
- 33059 strings out of 493029
- 766490 string characters out of 6136234
- 967589 words of memory out of 5000000
- 35741 multiletter control sequences out of 15000+600000
- 28145 words of font info for 59 fonts, out of 8000000 for 9000
+ 33074 strings out of 493029
+ 766585 string characters out of 6136234
+ 969733 words of memory out of 5000000
+ 35746 multiletter control sequences out of 15000+600000
+ 30883 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,15n,101p,1084b,2007s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,15n,101p,1084b,2005s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist
@@ -1642,10 +1621,10 @@ hare/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on document.pdf (48 pages, 872999 bytes).
+Output written on document.pdf (48 pages, 644437 bytes).
 PDF statistics:
- 918 PDF objects out of 1000 (max. 8388607)
- 825 compressed objects within 9 object streams
- 244 named destinations out of 1000 (max. 500000)
- 549 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 957 PDF objects out of 1000 (max. 8388607)
+ 865 compressed objects within 9 object streams
+ 253 named destinations out of 1000 (max. 500000)
+ 579 words of extra memory for PDF output out of 10000 (max. 10000000)
 

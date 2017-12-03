@@ -13,7 +13,7 @@ In training, we train local relationship model from the generated equations and 
 
 In testing, set a score for the generated equations from the local and global model and choose the equation with the highest score as the final equation for a problem text.
 
-\section{Flowchart of PWPS}
+\section{Flowchart of PWPS} Percentage Word Problem Solver (PWPS) starts with the problem text and its solution. Then it divides based on the test or train categories. Flowchart for PWPS is shown in Figure \ref{fig:flowchart} which gives the overview of our proposed system. 
 \begin{figure}[H]
 	\begin{center}
 \begin{tikzpicture}[node distance=1.2cm]
@@ -48,11 +48,11 @@ In testing, set a score for the generated equations from the local and global mo
 \caption{Flowchart of PWPS}
 \label{fig:flowchart}
 \end{figure}
-\noindent Figure \ref{fig:flowchart} gives the overview of our proposed system \textbf{Percentage Word Problem Solver (PWPS)}. It firstly take the problem text as input that is a string, then passes through the converting portion. After equation generating, there is two-phase. One is training phase, and another is testing phase. 
+\noindent It firstly take the problem text as input that is a string, then passes through the converting portion. After equation generating, there is two-phase. One is training phase, and another is testing phase. 
 
 All the training steps in the algorithm are discussed in this paper as \textbf{“Learning”}, and testing steps are discussed as \textbf{“Inference”}. 
 
-Learning contains train local and global model, and inference contains equation evaluation and solution checking concerning the actual solution of the problem text. Algorithm for PWPS is given in the Fig. \ref{fig:algo}.
+Learning contains train local and global model, and inference contains equation evaluation and solution checking concerning the actual solution of the problem text. Algorithm for PWPS is given in the Figure \ref{fig:algo}.
 
 \section{Algorithm of PWPS}
 Algorithm of Percentage Word Problem Solver (PWPS) consists of two part. One is ``Learning" and the other is ``Inference".
@@ -94,7 +94,6 @@ Algorithm of Percentage Word Problem Solver (PWPS) consists of two part. One is 
 	\caption{Algorithm of PWPS}
 	\label{fig:algo}
 \end{figure}
-I have discussed the process in details in the following subsections.
 
 \subsection{Convert to Fraction}
 \noindent To solve percentage problems as addition, subtraction, multiplication or division, we need to convert the percentage related number to fraction with respect to number 100. If the given problem text, p has a number “x\%” then, we convert it to “y”, where y less than x and $x, y \in \mathbb{R^+}$.
@@ -107,7 +106,7 @@ I have discussed the process in details in the following subsections.
 \subsection{Tokenize, Replacement and Grounding}
 \noindent In order to build equation trees from the problem text, $P$ we tokenized the text to words. We changed the symbols of the problem text to corresponding word. $\$$ is changed to $dollar$, $\%$ to $times$ where $times$ enforce ALGES to count the statement as a multiplication operation.
 
-Problem text of Fig. \ref{fig:a}, is converted to fractions and replace the ‘\%’ with \textbf{times} Fig. \ref{fig:conv}.
+Problem text of Figure \ref{fig:a}, is converted to fractions and replace the ‘\%’ with \textbf{times} Figure \ref{fig:conv}.
 \begin{figure}[H]
 	\fbox{
 		\begin{minipage}{0.96\textwidth}
@@ -159,7 +158,7 @@ A Qset is ground as a compact representation of the properties based on Table \r
 			Ent: Bookmark
 		\end{minipage}
 		}
-	\caption{Grounded Qsets from Fig. \ref{fig:conv}}
+	\caption{Grounded Qsets from Figure \ref{fig:conv}}
 	\label{fig:groundedQset}
 \end{figure}
 \noindent Space of possible equation trees is reduced by reordering the Qsets. ALGES [3] employed three some rules to reorder the Qsets as in TABLE \ref{tab:rqset}.
@@ -213,7 +212,7 @@ In TABLE \ref{tab:ILP}, the notations for generating candidate equation trees ar
 	\label{tab:ILP}
 \end{table}
 
-In Fig. \ref{fig:groundedQset}, we showed the subset of the candidate equation trees based on the problem text, p in Fig. \ref{fig:a}, x is the unknown variable where the left one is correct and right one is incorrect parse tree.
+In Figure \ref{fig:groundedQset}, we showed the subset of the candidate equation trees based on the problem text, p in Figure \ref{fig:a}, x is the unknown variable where the left one is correct and right one is incorrect parse tree.
 \begin{figure}[H]
 	\begin{tikzpicture}[level distance=2cm,
 	level 1/.style={sibling distance=2cm},
@@ -272,7 +271,7 @@ between the target Qset and the current Qset as well
 as math keywords in the target sentence.
 \subsection{Linear Similarity}
 
-\noindent \textbf{Semantic similarity} is a metric defined over a set of documents or terms, where the idea of distance between them is based on the likeness of their meaning or semantic content as opposed to similarity which can be estimated regarding their syntactical representation (e.g. their string format). These are mathematical tools used to estimate the strength of the semantic relationship between units of language, concepts or instances, through a numerical description obtained according to the comparison of information supporting their meaning or describing their nature. The term semantic similarity is often confused with semantic relatedness. Semantic relatedness includes any relation between two terms, while semantic similarity only includes ``is a" relations. For example, ``car" is similar to ``bus", but is also related to "road" and ``driving".
+\noindent \textbf{Semantic similarity} is a metric defined over a set of documents or terms, where the idea of distance between them is based on the likeness of their meaning or semantic content as opposed to similarity which can be estimated regarding their syntactical representation (e.g. their string format). These are mathematical tools used to estimate the strength of the semantic relationship between units of language, concepts or instances, through a numerical description obtained according to the comparison of information supporting their meaning or describing their nature. The term semantic similarity is often confused with semantic relatedness. Semantic relatedness includes any relation between two terms, while semantic similarity only includes ``is a" relations. For example, ``car" is similar to ``bus", but is also related to ``road" and ``driving".
 
 
 Our method computes the similarity between
@@ -347,10 +346,10 @@ sets are applied to the left and right Qsets.
 \end{table}
 
 \subsection{Inference}
-The inference is the testing steps in Fig. \ref{fig:flowchart} In inference for a problem text, \textit{P} firstly \textit{ILP(p)} generates the candidate equations. On the candidate equations, the score is calculated from local Qset Relationship model and Global Equation Model. Moreover, the final score for a candidate equation is calculated through Eq. \ref{eq:main}. In ablation study ALGES shows that Global Model Score has better impact than Local Relationship Model.
+The inference is the testing steps in Figure \ref{fig:flowchart} In inference for a problem text, \textit{P} firstly \textit{ILP(p)} generates the candidate equations. On the candidate equations, the score is calculated from local Qset Relationship model and Global Equation Model. Moreover, the final score for a candidate equation is calculated through Eq. \ref{eq:main}. In ablation study ALGES shows that Global Model Score has better impact than Local Relationship Model.
 
 \begin{equation}
-	p(t|p) = (\alpha * \prod_{t_i \in t} L_{local}(t_i | p) ) + (\beta * G_{global}(t|p))
+	p(t|p) = (\alpha \times \prod_{t_i \in t} L_{local}(t_i | p) ) + (\beta \times G_{global}(t|p))
 	\label{eq:main}
 \end{equation}
 
@@ -361,7 +360,7 @@ Where $t_i$ is the subtree and $t$ are the roots of the equation, $\alpha$ is th
 \subsection{Random Forests}
 \textbf{Random forests} or \textbf{random decision forests} are an ensemble learning method for classification, regression and other tasks, that operate by constructing a multitude of decision trees at training time and outputting the class that is the mode of the classes (classification) or mean prediction (regression) of the individual trees. Random decision forests correct for decision trees' habit of over-fitting to their training set.
 \subsubsection{Features of Random Forests}
-We assume that the user knows about the construction of single classification trees. Random Forests grows many classification trees. To classify a new object from an input vector, put the input vector down each of the trees in the forest. Each tree gives a classification, and we say the tree "votes" for that class. The forest chooses the classification having the most votes (over all the trees in the forest).
+We assume that the user knows about the construction of single classification trees. Random Forests grows many classification trees. To classify a new object from an input vector, put the input vector down each of the trees in the forest. Each tree gives a classification, and we say the tree ``votes" for that class. The forest chooses the classification having the most votes (over all the trees in the forest).
 \begin{itemize}
 	\item It is unexcelled in accuracy among current algorithms.
 	\item It runs efficiently on large data bases.
@@ -377,9 +376,9 @@ We assume that the user knows about the construction of single classification tr
 	\item It offers an experimental method for detecting variable interactions.
 \end{itemize}
 \subsubsection{Algorithm of Random Forest}
-Decision trees are a popular method for various machine learning tasks. Tree learning "come closest to meeting the requirements for serving as an off-the-shelf procedure for data mining", because it is invariant under scaling and various other transformations of feature values, is robust to inclusion of irrelevant features, and produces inspectable models. However, they are seldom accurate.
+Decision trees are a popular method for various machine learning tasks. Tree learning ``come closest to meeting the requirements for serving as an off-the-shelf procedure for data mining", because it is invariant under scaling and various other transformations of feature values, is robust to inclusion of irrelevant features, and produces inspectable models. However, they are seldom accurate.
 
-In particular, trees that are grown very deep tend to learn highly irregular patterns: they overfit their training sets, i.e. have low bias, but very high variance. Random forests are a way of averaging multiple deep decision trees, trained on different parts of the same training set, with the goal of reducing the variance.[3]:587–588 This comes at the expense of a small increase in the bias and some loss of interpretability, but generally greatly boosts the performance in the final model.
+In particular, trees that are grown very deep tend to learn highly irregular patterns: they overfit their training sets, i.e. have low bias, but very high variance. Random forests are a way of averaging multiple deep decision trees, trained on different parts of the same training set, with the goal of reducing the variance. This comes at the expense of a small increase in the bias and some loss of interpretability, but generally greatly boosts the performance in the final model.
 
 \subsubsection{Tree bagging}
 The training algorithm for random forests applies the general technique of bootstrap aggregating, or bagging, to tree learners. Given a training set $X = x_1, ..., x_n$ with responses $Y = y_1, ..., y_n$, bagging repeatedly (B times) selects a random sample with replacement of the training set and fits trees to these samples:
@@ -406,7 +405,7 @@ Additionally, an estimate of the uncertainty of the prediction can be made as th
 The number of samples/trees, B, is a free parameter. Typically, a few hundred to several thousand trees are used, depending on the size and nature of the training set. An optimal number of trees B can be found using cross-validation, or by observing the out-of-bag error: the mean prediction error on each training sample $x_i$, using only the trees that did not have $x_i$ in their bootstrap sample. The training and test error tend to level off after some number of trees have been fit.
 
 \subsubsection{From bagging to random forests}
-The above procedure describes the original bagging algorithm for trees. Random forests differ in only one way from this general scheme: they use a modified tree learning algorithm that selects, at each candidate split in the learning process, a random subset of the features. This process is sometimes called "feature bagging". The reason for doing this is the correlation of the trees in an ordinary bootstrap sample: if one or a few features are very strong predictors for the response variable (target output), these features will be selected in many of the B trees, causing them to become correlated.
+The above procedure describes the original bagging algorithm for trees. Random forests differ in only one way from this general scheme: they use a modified tree learning algorithm that selects, at each candidate split in the learning process, a random subset of the features. This process is sometimes called ``feature bagging". The reason for doing this is the correlation of the trees in an ordinary bootstrap sample: if one or a few features are very strong predictors for the response variable (target output), these features will be selected in many of the B trees, causing them to become correlated.
 
 Typically, for a classification problem with $p$ features, $\sqrt{p}$ (rounded down) features are used in each split. For regression problems the inventors recommend $p/3$ (rounded down) with a minimum node size of 5 as the default.
 
