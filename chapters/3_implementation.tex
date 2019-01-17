@@ -346,7 +346,7 @@ sets are applied to the left and right Qsets.
 \end{table}
 
 \subsection{Inference}
-The inference is the testing steps in Figure \ref{fig:flowchart} In inference for a problem text, \textit{P} firstly \textit{ILP(p)} generates the candidate equations. On the candidate equations, the score is calculated from local Qset Relationship model and Global Equation Model. Moreover, the final score for a candidate equation is calculated through Eq. \ref{eq:main}. In ablation study ALGES shows that Global Model Score has better impact than Local Relationship Model.
+The inference is the testing steps in Figure \ref{fig:flowchart} In inference for a problem text, \textit{P} firstly \textit{ILP(p)} generates the candidate equations. On the candidate equations, the score is calculated from local Qset Relationship model and Global Equation Model. Moreover, the final score for a candidate equation is calculated through Equation \ref{eq:main}. In ablation study ALGES shows that Global Model Score has better impact than Local Relationship Model.
 
 \begin{equation}
 	p(t|p) = (\alpha \times \prod_{t_i \in t} L_{local}(t_i | p) ) + (\beta \times G_{global}(t|p))
